@@ -1,0 +1,23 @@
+include MANIFEST.in README setup.cfg libutils.py make_locales.py
+include src/GNU_GPL_v2 src/GNU_LGPL_v2 src/COPYRIGHTS
+include src/script/sk1.tmpl
+include src/sk1.desktop src/sk1.png src/sk1.xpm
+include messages/locale.in messages/README
+
+recursive-include po *.*
+recursive-include src/extensions *.*
+recursive-include src/sk1/share *.*
+
+include src/sk1sdk/tkcairo/_tkcairo.c
+recursive-include src/sk1sdk/tkpng/libtkpng *.*
+include src/sk1sdk/tkpng/pkgIndex.tcl
+recursive-include src/sk1sdk/tkstyle/icons *.*
+recursive-include src/sk1sdk/tkstyle/themes *.*
+recursive-include src/sk1sdk/tkstyle/colors *.*
+include src/sk1sdk/tkXcursor/_tkXcursor.c
+recursive-include src/sk1sdk/tcl *.tcl
+
+recursive-include src/uc/cms *.c
+recursive-include src/uc/cms *.h
+recursive-include src/uc/cms/profiles *.*
+include src/uc/libcairo/_libcairo.c

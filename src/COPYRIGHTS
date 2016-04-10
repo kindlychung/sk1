@@ -1,0 +1,27 @@
+sK1 is an open source vector graphics editor similar to CorelDRAW(tm), 
+Adobe (R) Illustrator(tm), or Adobe (R)Freehand(tm). 
+First of all sK1 is oriented for prepress industry.
+
+sK1 Team (http://sk1project.org), copyright (C) 2003-2015 by Igor E. Novikov.
+
+sK1 uses Sketch engine:
+Copyright (C) 1998, 1999, 2000, 2002, 2003 by Bernhard Herzog
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU Library General Public
+License as published by the Free Software Foundation; either
+version 2 of the License, or (at your option) any later version.
+
+Please note that some code portions are licensed under GNU General Public
+License v2.0.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Library General Public License for more details.
+
+You should have received a copy of the GNU Library General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+GPL and LGPL license agreement you can find in "GNU_GPL_v2" and "GNU_LGPL_v2" files.

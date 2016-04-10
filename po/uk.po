@@ -1,0 +1,3209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR Maxim S. Barabash <maxim.s.barabash@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.9.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-05 11:16+0200\n"
+"PO-Revision-Date: 2010-11-05 11:45+0300\n"
+"Last-Translator: Igor Novikov <igor.e.novikov@gmail.com>\n"
+"Language-Team: Ukrainian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Bookmarks: 631,223,71,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: src/app/Graphics/arrow.py:81
+#, python-format
+msgid "%s is not an arrow definition file"
+msgstr "%s файл не містить стрілок"
+
+#: src/app/Graphics/arrow.py:94
+#, python-format
+msgid ""
+"Error trying to read arrows from %s\n"
+"Using builtin defaults"
+msgstr ""
+"Помилка при спробі читання стрілок %s\n"
+"Використовуються вбудовані за замовчуванням"
+
+#: src/app/Graphics/bezier.py:186
+#, python-format
+msgid "PolyBezier (%(nodes)d nodes in %(paths)d paths)"
+msgstr "Крива Без'є (%(nodes)d вузлів у %(paths)d сегментах)"
+
+#: src/app/Graphics/bezier.py:262
+msgid "Create Curve"
+msgstr "Створити криву"
+
+#: src/app/Graphics/bezier.py:334
+msgid "Create Poly-Line"
+msgstr "Створити послідовність прямих лінії"
+
+#: src/app/Graphics/bezier.py:460
+msgid "Select All Nodes"
+msgstr "Позначити всі вузли"
+
+#: src/app/Graphics/bezier.py:777
+#, python-format
+msgid "%d nodes in PolyBezier"
+msgstr "%d вузлів у Кривій Без'є"
+
+#: src/app/Graphics/bezier.py:786
+msgid "PolyBezier"
+msgstr "Крива Без'є"
+
+#: src/app/Graphics/bezier.py:788
+msgid "First node of PolyBezier"
+msgstr "Перший вузол у Кривій Без'є"
+
+#: src/app/Graphics/bezier.py:790
+msgid "Last node of PolyBezier"
+msgstr "Останній вузол у Кривії Без'є"
+
+#: src/app/Graphics/bezier.py:792
+msgid "1 node of PolyBezier"
+msgstr "1 вузол у Кривії Без'є"
+
+#: src/app/Graphics/bezier.py:795
+#, python-format
+msgid "Point on curve at position %.2f"
+msgstr "Точка на кривій у позиції %.2f"
+
+#: src/app/Graphics/bezier.py:798
+msgid "No Node of PolyBezier"
+msgstr "Жоден вузол не позначено"
+
+#: src/app/Graphics/bezier.py:849
+msgid "Cut Curve"
+msgstr "Розірвання контуру"
+
+#: src/app/Graphics/bezier.py:932
+msgid "Close Nodes"
+msgstr "З'єднання вузлів"
+
+#: src/app/Graphics/bezier.py:942
+msgid "Angle"
+msgstr "Кутом"
+
+#: src/app/Graphics/bezier.py:943
+msgid "Smooth"
+msgstr "Згладжено"
+
+#: src/app/Graphics/bezier.py:944
+msgid "Symmetrical"
+msgstr "Симетрично"
+
+#: src/app/Graphics/bezier.py:959
+msgid "Curve->Line"
+msgstr "Крива->Пряма"
+
+#: src/app/Graphics/bezier.py:974
+msgid "Line->Curve"
+msgstr "Пряма->Крива"
+
+#: src/app/Graphics/bezier.py:996
+msgid "Delete Nodes"
+msgstr "Видалення вузлів"
+
+#: src/app/Graphics/bezier.py:1013
+msgid "Insert Nodes"
+msgstr "Додавання вузлів"
+
+#: src/app/Graphics/blendgroup.py:115
+#, python-format
+msgid "Interpolation with %d steps"
+msgstr "%d кроків інтерполяції"
+
+#: src/app/Graphics/blendgroup.py:336
+#, python-format
+msgid "BlendGroup with %d control objects"
+msgstr "Перехід з %d головних об'єктів"
+
+#: src/app/Graphics/color.py:325
+msgid "Registration Black ("
+msgstr "Складний чорний ("
+
+#: src/app/Graphics/color.py:396
+msgid "I can't alloc all needed colors. I'll use a private colormap"
+msgstr "Неможливо розмістити всі необхідні кольори. Використана обмежена палітра"
+
+#: src/app/Graphics/compound.py:253
+#, python-format
+msgid "Compound with %d objects"
+msgstr "Скомпонувати з %d об'єктами"
+
+#: src/app/Graphics/dashes.py:35
+#, python-format
+msgid "%s is not dashes file"
+msgstr "%s  файл не містить пунктирів"
+
+#: src/app/Graphics/dashes.py:38
+#, python-format
+msgid ""
+"Error trying to read dashes from %s\n"
+"Using builtin defaults"
+msgstr ""
+"Помилка при спробі читання пунктирів %s\n"
+"Використовуються вбудовані за замовчуванням"
+
+#: src/app/Graphics/document.py:87
+msgid "Guide Lines"
+msgstr "Додати напрямні"
+
+#: src/app/Graphics/document.py:89
+#: src/app/Graphics/document.py:150
+msgid "MasterLayer 1"
+msgstr "Майстер шар 1"
+
+#: src/app/Graphics/document.py:95
+#: src/app/Graphics/document.py:195
+#: src/app/Graphics/document.py:349
+msgid "Layer 1"
+msgstr "Шар 1"
+
+#: src/app/Graphics/document.py:126
+#, python-format
+msgid "Layer %d"
+msgstr "Шар %d"
+
+#: src/app/Graphics/document.py:324
+#, python-format
+msgid "Saving page %u of %u"
+msgstr "Збереження сторінки %u з %u"
+
+#: src/app/Graphics/document.py:690
+#: src/app/Scripting/wrapper.py:115
+msgid "Create Object"
+msgstr "Створення об'єкту"
+
+#: src/app/Graphics/document.py:1473
+msgid "Add Style"
+msgstr "Додати Стиль"
+
+#: src/app/Graphics/document.py:1484
+msgid "Set Properties"
+msgstr "Встановлення властивостей"
+
+#: src/app/Graphics/document.py:1514
+#: src/app/UI/mainwindow.py:851
+msgid "Delete"
+msgstr "Видалити"
+
+#: src/app/Graphics/document.py:1550
+msgid "Move To Top"
+msgstr "До гори"
+
+#: src/app/Graphics/document.py:1553
+msgid "Move To Bottom"
+msgstr "До низу"
+
+#: src/app/Graphics/document.py:1556
+msgid "Lower"
+msgstr "Опустити"
+
+#: src/app/Graphics/document.py:1559
+msgid "Raise"
+msgstr "Підняти"
+
+#: src/app/Graphics/document.py:1563
+#, python-format
+msgid "Move Selection to `%s'"
+msgstr "Переміщенні позначення у `%s'"
+
+#: src/app/Graphics/document.py:1620
+#: src/app/UI/mainwindow.py:802
+#: src/app/UI/ttk_ext.py:33
+msgid "Cut"
+msgstr "Вирізати"
+
+#: src/app/Graphics/document.py:1640
+#: src/app/Graphics/document.py:1645
+#: src/app/UI/mainwindow.py:859
+#: src/app/UI/mainwindow.py:860
+msgid "Duplicate"
+msgstr "Дублювати"
+
+#: src/app/Graphics/document.py:1678
+msgid "Create Group"
+msgstr "Створення групи"
+
+#: src/app/Graphics/document.py:1699
+#: src/app/UI/context/group_panel.py:29
+msgid "Ungroup"
+msgstr "Розгрупувати"
+
+#: src/app/Graphics/document.py:1729
+#: src/app/UI/mainwindow.py:882
+#: src/app/UI/context/group_panel.py:33
+msgid "Ungroup All"
+msgstr "Розгрупувати все"
+
+#: src/app/Graphics/document.py:1749
+msgid "Modify&Copy"
+msgstr "Зміна копії"
+
+#: src/app/Graphics/document.py:1757
+#: src/app/UI/mainwindow.py:875
+msgid "Create Mask Group"
+msgstr "Створити маскуючу групу"
+
+#: src/app/Graphics/document.py:1789
+msgid "Transform"
+msgstr "Трансформування"
+
+#: src/app/Graphics/document.py:1792
+msgid "Translate"
+msgstr "Перекласти"
+
+#: src/app/Graphics/document.py:1796
+#: src/app/UI/mainwindow.py:874
+msgid "Remove Transformation"
+msgstr "Прибрати трансформацію"
+
+#: src/app/Graphics/document.py:1808
+msgid "Align Objects"
+msgstr "Вирівнювання об'єктів"
+
+#: src/app/Graphics/document.py:1846
+#: src/app/UI/mainwindow.py:867
+msgid "Abut Horizontal"
+msgstr "У стик горизонтально"
+
+#: src/app/Graphics/document.py:1871
+#: src/app/UI/mainwindow.py:868
+msgid "Abut Vertical"
+msgstr "У стик вертикально"
+
+#: src/app/Graphics/document.py:1904
+#: src/app/UI/mainwindow.py:870
+#: src/app/UI/context/flip_panel.py:22
+msgid "Flip Horizontal"
+msgstr "Горизонтальне віддзеркалення"
+
+#: src/app/Graphics/document.py:1911
+#: src/app/UI/mainwindow.py:871
+#: src/app/UI/context/flip_panel.py:25
+msgid "Flip Vertical"
+msgstr "Вертикальне віддзеркалення"
+
+#: src/app/Graphics/document.py:1916
+msgid "Flip Both"
+msgstr "Перевернути"
+
+#: src/app/Graphics/document.py:1930
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:206
+msgid "Rotation"
+msgstr "Обертання"
+
+#: src/app/Graphics/document.py:1949
+#: src/app/UI/pluginpanels/transform/move_plugin.py:31
+msgid "Move"
+msgstr "Переміщення"
+
+#: src/app/Graphics/document.py:1963
+msgid "Move&Copy"
+msgstr "Переміщення копії"
+
+#: src/app/Graphics/document.py:1997
+#: src/app/UI/pluginpanels/transform/scale_plugin.py:178
+msgid "Scale"
+msgstr "Масштабування"
+
+#: src/app/Graphics/document.py:2071
+#: src/app/UI/pluginpanels/effects/blend_plugin.py:28
+msgid "Blend"
+msgstr "Перехід"
+
+#: src/app/Graphics/document.py:2080
+msgid "I can't blend the selected objects"
+msgstr "Не можливо поєднати вибрані об'єкти"
+
+#: src/app/Graphics/document.py:2104
+#: src/app/UI/mainwindow.py:873
+msgid "Cancel Blend"
+msgstr "Скасувати перехід"
+
+#: src/app/Graphics/document.py:2132
+#: src/app/UI/mainwindow.py:876
+msgid "Create Path Text"
+msgstr "Створити Текст вдовж шляху"
+
+#: src/app/Graphics/document.py:2159
+#: src/app/UI/mainwindow.py:877
+msgid "Create Clone"
+msgstr "Створити клон"
+
+#: src/app/Graphics/document.py:2190
+#: src/app/UI/mainwindow.py:864
+msgid "Combine Beziers"
+msgstr "Об'єднання контурів"
+
+#: src/app/Graphics/document.py:2212
+#: src/app/UI/mainwindow.py:865
+msgid "Split Beziers"
+msgstr "Розділення контурів"
+
+#: src/app/Graphics/document.py:2239
+#: src/app/UI/mainwindow.py:863
+msgid "Convert To Curve"
+msgstr "Перетворити на криву"
+
+#: src/app/Graphics/document.py:2305
+msgid "Convert Image"
+msgstr "Перетворення зображення"
+
+#: src/app/Graphics/document.py:2332
+#: src/app/UI/mainwindow.py:897
+msgid "Invert Image"
+msgstr "Інвертувати зображення"
+
+#: src/app/Graphics/document.py:2345
+#: src/app/UI/dialogs/gotopagedlg.py:25
+msgid "Go to page"
+msgstr "Перейти на сторінку"
+
+#: src/app/Graphics/document.py:2367
+msgid "Insert Pages"
+msgstr "Додати сторінки"
+
+#: src/app/Graphics/document.py:2369
+msgid "Insert Page"
+msgstr "Додати сторінку"
+
+#: src/app/Graphics/document.py:2393
+msgid "Add Imported Pages"
+msgstr "Додати імпортовані сторінкі"
+
+#: src/app/Graphics/document.py:2395
+msgid "Add imported Page"
+msgstr "Додати імпортовану сторінку"
+
+#: src/app/Graphics/document.py:2430
+msgid "Delete Page"
+msgstr "Видалити сторінку"
+
+#: src/app/Graphics/document.py:2517
+msgid "Select Layer"
+msgstr "Позначити шар"
+
+#: src/app/Graphics/document.py:2529
+msgid "Change Layer State"
+msgstr "Зміну стану шару"
+
+#: src/app/Graphics/document.py:2547
+msgid "Set Layer Outline Color"
+msgstr "Зміну кольору абрису шару"
+
+#: src/app/Graphics/document.py:2559
+msgid "Rename Layer"
+msgstr "Перейменування шару"
+
+#: src/app/Graphics/document.py:2571
+msgid "Append Layer"
+msgstr "Додати шар"
+
+#: src/app/Graphics/document.py:2585
+#: src/app/Graphics/layer.py:42
+msgid "New Layer"
+msgstr "Новий шар"
+
+#: src/app/Graphics/document.py:2641
+msgid "Move Layer Up"
+msgstr "Підняти шар"
+
+#: src/app/Graphics/document.py:2652
+msgid "Move Layer Down"
+msgstr "Опустити шар"
+
+#: src/app/Graphics/document.py:2693
+msgid "Delete Layer"
+msgstr "Видалити шар"
+
+#: src/app/Graphics/document.py:2756
+#: src/app/UI/mainwindow.py:890
+msgid "Update Style"
+msgstr "Оновити стиль"
+
+#: src/app/Graphics/document.py:2795
+#, python-format
+msgid "Create Style %s"
+msgstr "Створення стилю %s"
+
+#: src/app/Graphics/document.py:2811
+#, python-format
+msgid "Remove Style %s"
+msgstr "Видалити стиль %s"
+
+#: src/app/Graphics/document.py:2865
+msgid "Change Page Layout"
+msgstr "Зміну розташування сторінки"
+
+#: src/app/Graphics/document.py:2880
+msgid "Set Grid Geometry"
+msgstr "Зміну геометрії сітки"
+
+#: src/app/Graphics/document.py:2911
+msgid "Add Guide Line"
+msgstr "Створення напрямної"
+
+#: src/app/Graphics/document.py:2928
+msgid "Delete Guide Line"
+msgstr "Видалення напрямної"
+
+#: src/app/Graphics/document.py:2942
+msgid "Move Guide Line"
+msgstr "Переміщення напрямної"
+
+#: src/app/Graphics/ellipse.py:113
+msgid "Arc"
+msgstr "Дуга"
+
+#: src/app/Graphics/ellipse.py:114
+msgid "Chord"
+msgstr "Хорда"
+
+#: src/app/Graphics/ellipse.py:115
+msgid "Pie Slice"
+msgstr "Сегмент"
+
+#: src/app/Graphics/ellipse.py:265
+msgid "Circle radius %(radius)[length], center %(center)[position]"
+msgstr "Коло радіусом %(radius)[length], з центром у %(center)[position]"
+
+#: src/app/Graphics/ellipse.py:268
+msgid "Ellipse axes %(axes)[size], center %(center)[position]"
+msgstr "Осі еліпса %(axes)[size], з центром у %(center)[position]"
+
+#: src/app/Graphics/ellipse.py:286
+msgid "Create Ellipse"
+msgstr "Створити еліпс"
+
+#: src/app/Graphics/ellipse.py:325
+msgid "Circle %(radius)[length], center %(center)[position]"
+msgstr "Коло %(radius)[length], з центром у %(center)[position]"
+
+#: src/app/Graphics/ellipse.py:328
+msgid "Ellipse %(size)[size], center %(center)[position]"
+msgstr "Еліпс %(size)[size], з центром у %(center)[position]"
+
+#: src/app/Graphics/eps.py:148
+#, python-format
+msgid "EpsFile `%(filename)s' %(width)d x %(height)d at (%(x)d, %(y)d)"
+msgstr "Файл Eps `%(filename)s' %(width)d x %(height)d у (%(x)d, %(y)d)"
+
+#: src/app/Graphics/graphics.py:1012
+#, python-format
+msgid ""
+"Cannot load %(font)s:\n"
+"%(text)s"
+msgstr ""
+"Неможливо завантажити %(font)s:\n"
+"%(text)s"
+
+#: src/app/Graphics/graphics.py:1187
+#, python-format
+msgid "Can't create shared memory image: %s"
+msgstr "Неможливо створити спільної пам'яті для зображень: %s"
+
+#: src/app/Graphics/group.py:29
+#, python-format
+msgid "Group with %d objects"
+msgstr "Група з %d об'єктів"
+
+#: src/app/Graphics/guide.py:90
+msgid "Horizontal Guide Line at %(coord)[length]"
+msgstr "Горизонтальна напрямна у %(coord)[length]"
+
+#: src/app/Graphics/guide.py:93
+msgid "Vertical Guide Line at %(coord)[length]"
+msgstr "Вертикальна напрямна у %(coord)[length]"
+
+#: src/app/Graphics/image.py:35
+msgid "RGB"
+msgstr "RGB"
+
+#: src/app/Graphics/image.py:36
+msgid "RGBA"
+msgstr "RGBA"
+
+#: src/app/Graphics/image.py:37
+msgid "Grayscale"
+msgstr "Відтінки сірого"
+
+#: src/app/Graphics/image.py:38
+msgid "CMYK"
+msgstr "CMYK"
+
+#: src/app/Graphics/image.py:39
+msgid "Monochrome"
+msgstr "Монохромний"
+
+#: src/app/Graphics/image.py:40
+msgid "UNSUPPORTED"
+msgstr "НЕ ПІДТРИМУЄТЬСЯ"
+
+#: src/app/Graphics/image.py:165
+#, python-format
+msgid "Embedded %(mode)s image %(width)d x %(height)d at (%(x)d, %(y)d)"
+msgstr "Вбудоване %(mode)s зображення %(width)d x %(height)d на (%(x)d, %(y)d)"
+
+#: src/app/Graphics/layer.py:242
+#: src/app/UI/pluginpanels/layout/guidelines_plugin.py:30
+msgid "Guides"
+msgstr "Напрямні"
+
+#: src/app/Graphics/layer.py:338
+#: src/app/UI/canvas.py:1732
+#: src/app/UI/pluginpanels/layout/grid_plugin.py:24
+msgid "Grid"
+msgstr "Сітка"
+
+#: src/app/Graphics/maskgroup.py:74
+#, python-format
+msgid "MaskGroup with %d objects"
+msgstr "Маскуюча група з %d об'єктів"
+
+#: src/app/Graphics/maskgroup.py:162
+msgid "Select Mask"
+msgstr "Позначити маску"
+
+#: src/app/Graphics/plugobj.py:169
+#, python-format
+msgid "Unknown Plugin Object `%s'"
+msgstr "Невідоме доповнення `%s'"
+
+#: src/app/Graphics/properties.py:397
+msgid "Fill Pattern"
+msgstr "Заповнення шаблоном"
+
+#: src/app/Graphics/properties.py:397
+#: src/app/Graphics/properties.py:401
+msgid "Pattern"
+msgstr "Шаблон"
+
+#: src/app/Graphics/properties.py:399
+msgid "Fill Transform Pattern"
+msgstr "Заповнення трансформ. шаблоном"
+
+#: src/app/Graphics/properties.py:400
+msgid "Transform pattern"
+msgstr "Трансформовані шаблони"
+
+#: src/app/Graphics/properties.py:401
+msgid "Line Pattern"
+msgstr "Шаблон лінії"
+
+#: src/app/Graphics/properties.py:403
+msgid "Line Width"
+msgstr "Ширина лінії"
+
+#: src/app/Graphics/properties.py:403
+msgid "Width"
+msgstr "Ширина"
+
+#: src/app/Graphics/properties.py:405
+msgid "Line Cap"
+msgstr "Закінчення лінії"
+
+#: src/app/Graphics/properties.py:405
+msgid "Cap"
+msgstr "Закінчення:"
+
+#: src/app/Graphics/properties.py:407
+msgid "Line Join"
+msgstr "З'єднати лінії"
+
+#: src/app/Graphics/properties.py:407
+msgid "Join"
+msgstr "З'єднати"
+
+#: src/app/Graphics/properties.py:409
+msgid "Line Dashes"
+msgstr "Пунктир лінії"
+
+#: src/app/Graphics/properties.py:409
+msgid "Dashes"
+msgstr "Пунктир"
+
+#: src/app/Graphics/properties.py:410
+msgid "Line Arrow 1"
+msgstr "1 стрілка лінії"
+
+#: src/app/Graphics/properties.py:410
+msgid "Arrow 1"
+msgstr "Стрілка 1"
+
+#: src/app/Graphics/properties.py:412
+msgid "Line Arrow 2"
+msgstr "2 стрілка лінії"
+
+#: src/app/Graphics/properties.py:412
+msgid "Arrow 2"
+msgstr "Стрілка 2"
+
+#: src/app/Graphics/properties.py:414
+msgid "Font"
+msgstr "Шрифт"
+
+#: src/app/Graphics/properties.py:415
+msgid "Font Size"
+msgstr "Розмір шрифту"
+
+#: src/app/Graphics/properties.py:415
+msgid "Size"
+msgstr "Розмір"
+
+#: src/app/Graphics/properties.py:416
+msgid "Linegap"
+msgstr "Відстань між строками"
+
+#: src/app/Graphics/properties.py:417
+msgid "Wordgap"
+msgstr "Відстань між словами"
+
+#: src/app/Graphics/properties.py:418
+msgid "Chargap"
+msgstr "Відстань між символами"
+
+#: src/app/Graphics/properties.py:419
+msgid "Text Alignment"
+msgstr "Вирівнювання тексту"
+
+#: src/app/Graphics/properties.py:419
+#: src/app/UI/pluginpanels/effects/align_plugin.py:35
+msgid "Alignment"
+msgstr "Вирівнювання"
+
+#: src/app/Graphics/properties.py:420
+msgid "Text Vertical Alignment"
+msgstr "Вертикальне вирівнювання тексту"
+
+#: src/app/Graphics/properties.py:420
+msgid "VAlignment"
+msgstr "VAlignment"
+
+#: src/app/Graphics/psdevice.py:193
+#, python-format
+msgid "Can't embed font '%s': %s"
+msgstr "Не можу вбудувати шрифт '%s': %s"
+
+#: src/app/Graphics/psdevice.py:200
+#, python-format
+msgid "Can't find file for font '%s' for embedding"
+msgstr "Не вдається знайти файл шрифту '%s' для вбудовування"
+
+#: src/app/Graphics/rectangle.py:184
+msgid "Rectangle %(size)[size]"
+msgstr "Прямокутник %(size)[size]"
+
+#: src/app/Graphics/rectangle.py:203
+msgid "Create Rectangle"
+msgstr "Створити прямокутник"
+
+#: src/app/Graphics/rectangle.py:232
+msgid "Rectangle: %(size)[size]"
+msgstr "Прямокутник: %(size)[size]"
+
+#: src/app/Graphics/selection.py:477
+#: src/app/Graphics/selection.py:1145
+msgid "No Selection"
+msgstr "Немає позначених об'єктів"
+
+#: src/app/Graphics/selection.py:492
+#, python-format
+msgid "%s on `%%(layer)s'"
+msgstr "%s на `%%(layer)s'"
+
+#: src/app/Graphics/selection.py:492
+#: src/app/Graphics/selection.py:495
+#: src/app/Graphics/selection.py:504
+#: src/app/Graphics/selection.py:506
+msgid "Selection size:"
+msgstr "Розмір позначення"
+
+#: src/app/Graphics/selection.py:495
+#, python-format
+msgid "%(object)s on `%(layer)s'"
+msgstr "%(object)s на `%(layer)s'"
+
+#: src/app/Graphics/selection.py:502
+#, python-format
+msgid "%(number)d objects on `%(layer)s'"
+msgstr "%(number)d об'єктів на `%(layer)s'"
+
+#: src/app/Graphics/selection.py:506
+#, python-format
+msgid "%d objects on several layers"
+msgstr "%d об'єктів на декількох шарів"
+
+#: src/app/Graphics/selection.py:600
+msgid "Move Objects"
+msgstr "Переміщення об'єктів"
+
+#: src/app/Graphics/selection.py:616
+msgid "Resize Objects"
+msgstr "Зміну розміру об'єктів"
+
+#: src/app/Graphics/selection.py:643
+msgid "Scale %(factorx)[factor], %(factory)[factor]"
+msgstr "Масштаб %(factorx)[factor], %(factory)[factor]"
+
+#: src/app/Graphics/selection.py:644
+msgid "Changing size to:"
+msgstr "Зміна розміру на:"
+
+#: src/app/Graphics/selection.py:648
+msgid "Move %(x)[length], %(y)[length]"
+msgstr "Переміщення %(x)[length], %(y)[length]"
+
+#: src/app/Graphics/selection.py:847
+msgid "Shear Objects"
+msgstr "Нахилення об'єктів"
+
+#: src/app/Graphics/selection.py:849
+msgid "Rotate Objects"
+msgstr "Обертання об'єкту"
+
+#: src/app/Graphics/selection.py:854
+msgid "Rotation Center at %(position)[position]"
+msgstr "Обертання з центром у %(position)[position]"
+
+#: src/app/Graphics/selection.py:859
+msgid "Rotate by %(angle)[angle]"
+msgstr "Обертання на %(angle)[angle]"
+
+#: src/app/Graphics/selection.py:862
+msgid "Horizontal Shear by %(ratio)[factor]"
+msgstr "Горизонтальний нахил %(ratio)[factor]"
+
+#: src/app/Graphics/selection.py:865
+msgid "Vertical Shear by %(ratio)[factor]"
+msgstr "Вертикальний нахил %(ratio)[factor]"
+
+#: src/app/Graphics/selection.py:868
+msgid "Identity Transform"
+msgstr "Ідентичне трансформування"
+
+#: src/app/Graphics/selection.py:1037
+#: src/app/UI/context/ellipse_panel.py:45
+#: src/app/UI/context/rectangle_panel.py:72
+msgid "Edit Object"
+msgstr "Редагування об'єкту"
+
+#: src/app/Graphics/text.py:458
+msgid "Align Left"
+msgstr "Вирівнювання ліворуч"
+
+#: src/app/Graphics/text.py:460
+msgid "Align Right"
+msgstr "Вирівнювання праворуч"
+
+#: src/app/Graphics/text.py:462
+msgid "Align H. Center"
+msgstr "Центрувати по горизонтальній осі"
+
+#: src/app/Graphics/text.py:464
+msgid "Align Top"
+msgstr "Вирівняти верхні сторони"
+
+#: src/app/Graphics/text.py:466
+msgid "Align V. Center"
+msgstr "Центрувати по вертикальній осі"
+
+#: src/app/Graphics/text.py:468
+msgid "Align Baseline"
+msgstr "Вирівняти відносно базової лінії"
+
+#: src/app/Graphics/text.py:470
+msgid "Align Bottom"
+msgstr "Вирівняти нижні сторони"
+
+#: src/app/Graphics/text.py:561
+msgid "Text `%(text)s' at %(position)[position]"
+msgstr "Текст `%(text)s' на %(position)[position]"
+
+#: src/app/Graphics/text.py:646
+msgid "Create Text"
+msgstr "Створити текст"
+
+#: src/app/Graphics/text.py:944
+#, python-format
+msgid "Text on Path: `%(text)s'"
+msgstr "Текст вздовж шляху: `%(text)s'"
+
+#: src/app/Graphics/text.py:1105
+#, python-format
+msgid "Path Text: `%(text)s'"
+msgstr "Шлях з текстом: `%(text)s'"
+
+#: src/app/Graphics/text.py:1115
+msgid "Select Text"
+msgstr "Вибрати текст"
+
+#: src/app/Graphics/text.py:1119
+msgid "Select Path"
+msgstr "Позначити шлях"
+
+#: src/app/Graphics/text.py:1126
+msgid "Rotate Letters"
+msgstr "Обертати літери"
+
+#: src/app/Graphics/text.py:1128
+msgid "Skew Letters"
+msgstr "Нахилити букви"
+
+#: src/app/UI/canvas.py:192
+msgid "Select"
+msgstr "Позначити"
+
+#: src/app/UI/canvas.py:198
+#: src/app/UI/mainwindow.py:904
+msgid "Edit"
+msgstr "Правка"
+
+#: src/app/UI/canvas.py:204
+msgid "Create"
+msgstr "Створити"
+
+#: src/app/UI/canvas.py:209
+#: src/app/UI/canvas.py:1338
+msgid "Zoom Area"
+msgstr "Змінити масштаб"
+
+#: src/app/UI/canvas.py:213
+msgid "Pick Object"
+msgstr "Виберіть об'єкт"
+
+#: src/app/UI/canvas.py:218
+msgid "Place Object"
+msgstr "Місце об'єкта"
+
+#: src/app/UI/canvas.py:827
+msgid "Draw Rectangle"
+msgstr "Створити прямокутник"
+
+#: src/app/UI/canvas.py:831
+msgid "Draw Ellipse"
+msgstr "Створити еліпс"
+
+#: src/app/UI/canvas.py:835
+msgid "Draw Curve"
+msgstr "Створити криву"
+
+#: src/app/UI/canvas.py:839
+msgid "Draw Poly-Line"
+msgstr "Створити прямі лінії"
+
+#: src/app/UI/canvas.py:843
+msgid "Draw Text"
+msgstr "Створити текст"
+
+#: src/app/UI/canvas.py:1020
+msgid "Selection Mode"
+msgstr "Режим позначення"
+
+#: src/app/UI/canvas.py:1104
+msgid "Edit Mode"
+msgstr "Режим редагування"
+
+#: src/app/UI/canvas.py:1406
+msgid "Toggle Mode"
+msgstr "Перемикнути режим"
+
+#: src/app/UI/canvas.py:1597
+msgid "Use Xlib Renderer"
+msgstr "Вимальовувати за допомогою Xlib"
+
+#: src/app/UI/canvas.py:1612
+msgid "Use Cairo Renderer"
+msgstr "Вимальовувати за допомогою Cairo"
+
+#: src/app/UI/canvas.py:1628
+msgid "Alpha Channel"
+msgstr "Альфа-канал"
+
+#: src/app/UI/canvas.py:1643
+msgid "Color Managment"
+msgstr "Керування кольором"
+
+#: src/app/UI/canvas.py:1660
+msgid "Snap to Grid"
+msgstr "Прилипати до сітки"
+
+#: src/app/UI/canvas.py:1674
+msgid "Snap to Objects"
+msgstr "Прилипати до об'єктів"
+
+#: src/app/UI/canvas.py:1689
+msgid "Snap to Guides"
+msgstr "Прилипати до напрямних"
+
+#: src/app/UI/canvas.py:1702
+msgid "Snap Bounding Rect"
+msgstr "Прилипати до габаритного прямокутника"
+
+#: src/app/UI/canvas.py:1715
+msgid "Snap Move Relative"
+msgstr "Дозволити відносні координати"
+
+#: src/app/UI/canvas.py:1734
+msgid "Objects"
+msgstr "Об'єкти"
+
+#: src/app/UI/canvas.py:1736
+msgid "Guide"
+msgstr "Напрямна"
+
+#: src/app/UI/canvas.py:1738
+msgid "Snap:"
+msgstr "Прилипання:"
+
+#: src/app/UI/canvas.py:1739
+msgid "No Snap"
+msgstr "Без прилипання"
+
+#: src/app/UI/canvas.py:1770
+msgid "Crosshairs"
+msgstr "Перетин (перехрестя)"
+
+#: src/app/UI/canvas.py:1925
+msgid "Refresh Window"
+msgstr "Оновити вікно"
+
+#: src/app/UI/canvas.py:1955
+msgid "Zoom In"
+msgstr "Збільшити"
+
+#: src/app/UI/canvas.py:1957
+msgid "Zoom Out"
+msgstr "Зменшити"
+
+#: src/app/UI/canvas.py:1976
+msgid "Fit to Window"
+msgstr "Малюнок цілком"
+
+#: src/app/UI/canvas.py:1977
+msgid "Fit Selected to Window"
+msgstr "Показати позначенні об'єкти цілком"
+
+#: src/app/UI/canvas.py:1988
+msgid "Fit Page to Window"
+msgstr "Сторінка цілком"
+
+#: src/app/UI/canvas.py:2001
+msgid "Restore Previous View"
+msgstr "Відновити попередній масштаб"
+
+#: src/app/UI/canvas.py:2010
+msgid "Contour View"
+msgstr "Абрис"
+
+#: src/app/UI/canvas.py:2014
+msgid "Draw Page Border"
+msgstr "Показувати рамку сторінки"
+
+#: src/app/UI/canvas.py:2018
+msgid "Show Grid"
+msgstr "Показати сітку"
+
+#: src/app/UI/canvas.py:2069
+msgid "Set Fill Color..."
+msgstr "Вибрати колір заповнення..."
+
+#: src/app/UI/canvas.py:2085
+msgid "Set Fill Color"
+msgstr "Зміну кольору заповнення"
+
+#: src/app/UI/canvas.py:2102
+msgid "Set Line Color"
+msgstr "Зміну кольору контуру"
+
+#: src/app/UI/colordlg.py:319
+msgid "Select RGB Color"
+msgstr "Вибір RGB-кольору"
+
+#: src/app/UI/colordlg.py:338
+#: src/app/UI/gradientedit.py:300
+#: src/app/UI/styledlg.py:193
+#: src/app/UI/styledlg.py:269
+#: src/app/UI/tkext.py:1093
+#: src/app/managers/docmanager.py:332
+#: src/app/scripts/create_spiral.py:53
+#: src/app/scripts/create_star.py:119
+#: src/app/scripts/create_star_outline.py:56
+#: src/app/scripts/export_raster.py:78
+#: src/app/scripts/simple_separation.py:173
+#: src/app/UI/cc/ccenterdialog.py:71
+#: src/app/UI/dialogs/deletepagedlg.py:52
+#: src/app/UI/dialogs/gotopagedlg.py:52
+#: src/app/UI/dialogs/insertpagedlg.py:77
+#: src/app/UI/dialogs/msgdialog.py:25
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: src/app/UI/colordlg.py:342
+#: src/app/UI/gradientedit.py:298
+#: src/app/UI/sketchdlg.py:376
+#: src/app/UI/styledlg.py:195
+#: src/app/UI/styledlg.py:272
+#: src/app/UI/tkext.py:1088
+#: src/app/events/warn.py:82
+#: src/app/scripts/create_spiral.py:51
+#: src/app/scripts/create_star.py:115
+#: src/app/scripts/create_star_outline.py:54
+#: src/app/scripts/export_raster.py:76
+#: src/app/scripts/simple_separation.py:171
+#: src/app/UI/cc/ccenterdialog.py:77
+#: src/app/UI/dialogs/deletepagedlg.py:57
+#: src/app/UI/dialogs/gotopagedlg.py:57
+#: src/app/UI/dialogs/insertpagedlg.py:82
+#: src/app/UI/dialogs/msgdialog.py:20
+#: src/app/UI/dialogs/msgdialog.py:35
+msgid "OK"
+msgstr "Гаразд"
+
+#: src/app/UI/dlg_blend.py:29
+msgid "BLEND"
+msgstr "Перехід"
+
+#: src/app/UI/dlg_blend.py:44
+#: src/app/UI/sketchdlg.py:196
+#: src/app/UI/sketchdlg.py:246
+#: src/app/UI/cc/ccenterdialog.py:74
+#: src/app/UI/pluginpanels/ppanel.py:120
+#: src/app/UI/pluginpanels/effects/align_plugin.py:110
+#: src/app/UI/pluginpanels/effects/blend_plugin.py:46
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:116
+#: src/app/UI/pluginpanels/extensions/csconverter_plugin.py:55
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:37
+#: src/app/UI/pluginpanels/layout/page_plugin.py:128
+#: src/app/UI/pluginpanels/properties/fill_plugin.py:59
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:55
+#: src/app/UI/pluginpanels/properties/outlineprop.py:55
+#: src/app/UI/pluginpanels/shaping/divide.py:39
+#: src/app/UI/pluginpanels/shaping/intersect.py:39
+#: src/app/UI/pluginpanels/shaping/outline.py:41
+#: src/app/UI/pluginpanels/shaping/trim.py:39
+#: src/app/UI/pluginpanels/shaping/union.py:39
+#: src/app/UI/pluginpanels/transform/move_plugin.py:123
+#: src/app/UI/pluginpanels/transform/resize_plugin.py:132
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:153
+#: src/app/UI/pluginpanels/transform/scale_plugin.py:134
+#: src/app/UI/pluginpanels/transform/skew_plugin.py:106
+msgid "Apply"
+msgstr "Застосувати"
+
+#: src/app/UI/dlg_blend.py:53
+#: src/app/UI/pluginpanels/effects/blend_plugin.py:56
+msgid "Steps:"
+msgstr "Кроки:"
+
+#: src/app/UI/dlg_blend.py:66
+#: src/app/UI/pluginpanels/effects/blend_plugin.py:67
+msgid "Select Start"
+msgstr "Позначити початок"
+
+#: src/app/UI/dlg_blend.py:73
+#: src/app/UI/pluginpanels/effects/blend_plugin.py:75
+msgid "Select End"
+msgstr "Позначити кінець"
+
+#: src/app/UI/dlg_blend.py:116
+#: src/app/UI/pluginpanels/effects/blend_plugin.py:129
+#, python-format
+msgid "Set %d Blend Steps"
+msgstr "%d крок для переходу"
+
+#: src/app/UI/filldlg.py:273
+msgid "Color"
+msgstr "Колір"
+
+#: src/app/UI/filldlg.py:328
+msgid "Border"
+msgstr "Межа"
+
+#: src/app/UI/filldlg.py:338
+#: src/app/UI/gradientedit.py:285
+msgid "Edit Gradient"
+msgstr "Правка градієнта"
+
+#: src/app/UI/filldlg.py:491
+msgid "Load Image..."
+msgstr "Завантажити зображення ..."
+
+#: src/app/UI/filldlg.py:494
+msgid "Pick Image..."
+msgstr "Виберіть зображення..."
+
+#: src/app/UI/filldlg.py:519
+#: src/app/UI/mainwindow.py:1454
+msgid "Load Image"
+msgstr "Завантажити зображення"
+
+#: src/app/UI/filldlg.py:520
+#: src/app/UI/mainwindow.py:1455
+#, python-format
+msgid ""
+"Cannot load %(filename)s:\n"
+"%(message)s"
+msgstr ""
+"Неможливо завантажити %(filename)s:\n"
+"%(message)s"
+
+#: src/app/UI/filldlg.py:549
+msgid "Fill Style"
+msgstr "Стиль заповнення"
+
+#: src/app/UI/filldlg.py:572
+msgid "Transform Pattern"
+msgstr "Трансформовані шаблони"
+
+#: src/app/UI/filldlg.py:698
+msgid "Set Fill"
+msgstr "Встановити заповнення"
+
+#: src/app/UI/gradientedit.py:180
+msgid "Set Handle Color"
+msgstr "Зміну кольору ручки"
+
+#: src/app/UI/gradientedit.py:182
+msgid "Delete Handle"
+msgstr "Видалити ручку"
+
+#: src/app/UI/gradientedit.py:184
+msgid "Insert Handle"
+msgstr "Додати ручку"
+
+#: src/app/UI/gradientedit.py:296
+msgid "Reverse"
+msgstr "Обернути"
+
+#: src/app/UI/mainwindow.py:137
+#, python-format
+msgid "Error running script `%s'"
+msgstr "Помилка виконання сценарію `%s'"
+
+#: src/app/UI/mainwindow.py:241
+msgid "Change system coordinates"
+msgstr "Змінити систему координат"
+
+#: src/app/UI/mainwindow.py:299
+msgid "No color"
+msgstr "Кольору немає"
+
+#: src/app/UI/mainwindow.py:638
+msgid "Fill:"
+msgstr "Заповнення:"
+
+#: src/app/UI/mainwindow.py:641
+msgid "Fill: None"
+msgstr "Заповнення: немає"
+
+#: src/app/UI/mainwindow.py:646
+msgid "Outline:"
+msgstr "Контур:"
+
+#: src/app/UI/mainwindow.py:649
+msgid "Outline: None"
+msgstr "Контур: немає"
+
+#: src/app/UI/mainwindow.py:760
+msgid "New"
+msgstr "Створити"
+
+#: src/app/UI/mainwindow.py:761
+msgid "New Drawing Window"
+msgstr "Відкрити нове вікно"
+
+#: src/app/UI/mainwindow.py:762
+msgid "Open..."
+msgstr "Відкрити..."
+
+#: src/app/UI/mainwindow.py:767
+#: src/app/UI/tkext.py:1091
+#: src/app/UI/dialogs/msgdialog.py:23
+msgid "Save"
+msgstr "Зберегти"
+
+#: src/app/UI/mainwindow.py:768
+msgid "Save As..."
+msgstr "Зберегти як..."
+
+#: src/app/UI/mainwindow.py:769
+msgid "Save All"
+msgstr "Зберегти всі"
+
+#: src/app/UI/mainwindow.py:770
+msgid "Export As..."
+msgstr "Експортувати як..."
+
+#: src/app/UI/mainwindow.py:771
+#: src/app/UI/sketchdlg.py:249
+#: src/app/UI/dialogs/aboutdlg.py:72
+msgid "Close"
+msgstr "Закрити"
+
+#: src/app/UI/mainwindow.py:772
+msgid "Close All"
+msgstr "Закрити всі"
+
+#: src/app/UI/mainwindow.py:773
+#: src/app/UI/mainwindow.py:834
+msgid "Import vector..."
+msgstr "Імпорт вектору..."
+
+#: src/app/UI/mainwindow.py:775
+msgid "Preferences..."
+msgstr "Налаштування..."
+
+#: src/app/UI/mainwindow.py:776
+msgid "Exit"
+msgstr "Вийти"
+
+#: src/app/UI/mainwindow.py:779
+msgid "Report bug..."
+msgstr "Доповісти про помилку"
+
+#: src/app/UI/mainwindow.py:780
+msgid "Project web site..."
+msgstr "Веб-сайт проекту..."
+
+#: src/app/UI/mainwindow.py:781
+msgid "Project forum..."
+msgstr "Онлайн-форум…"
+
+#: src/app/UI/mainwindow.py:782
+msgid "About sK1..."
+msgstr "Про програму sK1..."
+
+#: src/app/UI/mainwindow.py:783
+msgid "Plugins strip"
+msgstr "Панель доповнень..."
+
+#: src/app/UI/mainwindow.py:786
+msgid "Insert Page..."
+msgstr "Додати сторінки ..."
+
+#: src/app/UI/mainwindow.py:787
+msgid "Delete Page..."
+msgstr "Видалити сторінку ..."
+
+#: src/app/UI/mainwindow.py:788
+msgid "Next Page"
+msgstr "Наступна сторінка"
+
+#: src/app/UI/mainwindow.py:789
+msgid "Previous Page"
+msgstr "Попередня сторінка"
+
+#: src/app/UI/mainwindow.py:790
+msgid "Go to Page..."
+msgstr "Перейти на сторінку..."
+
+#: src/app/UI/mainwindow.py:792
+msgid "Add Horizontal Guide Line"
+msgstr "Додати горизонтальну напрямну лінію"
+
+#: src/app/UI/mainwindow.py:793
+msgid "Add Vertical Guide Line"
+msgstr "Додати вертикальну напрямну лінію"
+
+#: src/app/UI/mainwindow.py:795
+#: src/app/UI/mainwindow.py:1001
+msgid "Zoom 1:1"
+msgstr "Масштаб 1:1"
+
+#: src/app/UI/mainwindow.py:796
+#: src/app/UI/ttk_ext.py:35
+msgid "Copy"
+msgstr "Скопіювати"
+
+#: src/app/UI/mainwindow.py:805
+#: src/app/UI/mainwindow.py:1501
+#: src/app/UI/mainwindow.py:1511
+#: src/app/UI/ttk_ext.py:37
+msgid "Paste"
+msgstr "Вставити"
+
+#: src/app/UI/mainwindow.py:808
+msgid "Export Bitmap..."
+msgstr "Експорт зображення..."
+
+#: src/app/UI/mainwindow.py:812
+msgid "Align to ..."
+msgstr "Вирівнювання ..."
+
+#: src/app/UI/mainwindow.py:813
+msgid "Grid Setup..."
+msgstr "Налаштовування сітки..."
+
+#: src/app/UI/mainwindow.py:814
+msgid "Outline..."
+msgstr "Контур..."
+
+#: src/app/UI/mainwindow.py:815
+msgid "Fill..."
+msgstr "Заповнення..."
+
+#: src/app/UI/mainwindow.py:817
+msgid "Styles..."
+msgstr "Стилі..."
+
+#: src/app/UI/mainwindow.py:818
+msgid "Blend..."
+msgstr "Перехід..."
+
+#: src/app/UI/mainwindow.py:822
+msgid "Guides Setup..."
+msgstr "Налаштування напрямних..."
+
+#: src/app/UI/mainwindow.py:823
+msgid "Print..."
+msgstr "Надрукувати..."
+
+#: src/app/UI/mainwindow.py:824
+msgid "Print to PDF..."
+msgstr "Друкувати у PDF..."
+
+#: src/app/UI/mainwindow.py:826
+msgid "Move..."
+msgstr "Переміщення..."
+
+#: src/app/UI/mainwindow.py:827
+msgid "Rotate..."
+msgstr "Обертання..."
+
+#: src/app/UI/mainwindow.py:828
+msgid "Resize..."
+msgstr "Зміна розміру..."
+
+#: src/app/UI/mainwindow.py:833
+msgid "Load Palette..."
+msgstr "Завантажити палітру..."
+
+#: src/app/UI/mainwindow.py:835
+msgid "Import bitmap..."
+msgstr "Імпорт зображення ..."
+
+#: src/app/UI/mainwindow.py:837
+msgid "Name Style..."
+msgstr "Назва стилю ..."
+
+#: src/app/UI/mainwindow.py:840
+#: src/app/UI/ttk_ext.py:40
+msgid "Select All"
+msgstr "Позначити все"
+
+#: src/app/UI/mainwindow.py:841
+msgid "Select Next"
+msgstr "Вибрати наступну"
+
+#: src/app/UI/mainwindow.py:842
+msgid "Select Previous"
+msgstr "Вибрати попередню"
+
+#: src/app/UI/mainwindow.py:843
+msgid "Select First Child"
+msgstr "Позначити першу дитину"
+
+#: src/app/UI/mainwindow.py:844
+msgid "Select Parent"
+msgstr "Позначити батька"
+
+#: src/app/UI/mainwindow.py:846
+msgid "Move Up"
+msgstr "Перемістити вгору"
+
+#: src/app/UI/mainwindow.py:847
+msgid "Move Down"
+msgstr "Перемістити вниз"
+
+#: src/app/UI/mainwindow.py:848
+msgid "Move Right"
+msgstr "Перемістити вправо"
+
+#: src/app/UI/mainwindow.py:849
+msgid "Move Left"
+msgstr "Перемістити вліво"
+
+#: src/app/UI/mainwindow.py:853
+msgid "Move to Top"
+msgstr "На передній план"
+
+#: src/app/UI/mainwindow.py:854
+msgid "Move to Bottom"
+msgstr "На задній план"
+
+#: src/app/UI/mainwindow.py:856
+msgid "Move One Up"
+msgstr "Підняти"
+
+#: src/app/UI/mainwindow.py:857
+msgid "Move One Down"
+msgstr "Опустити"
+
+#: src/app/UI/mainwindow.py:861
+msgid "Group selected objects"
+msgstr "Згрупувати позначені об'єкти"
+
+#: src/app/UI/mainwindow.py:862
+msgid "Ungroup selection"
+msgstr "Розгрупувати позначену групу"
+
+#: src/app/UI/mainwindow.py:879
+msgid "Rotate Left 90"
+msgstr "Повернути вліво на 90"
+
+#: src/app/UI/mainwindow.py:880
+msgid "Rotate 180"
+msgstr "Повернути на 180"
+
+#: src/app/UI/mainwindow.py:881
+msgid "Rotate Right 90"
+msgstr "Повернути вправо на 90"
+
+#: src/app/UI/mainwindow.py:884
+#: src/app/events/undo.py:200
+msgid "Undo"
+msgstr "Відмінити"
+
+#: src/app/UI/mainwindow.py:885
+#: src/app/events/undo.py:209
+msgid "Redo"
+msgstr "Повторити"
+
+#: src/app/UI/mainwindow.py:886
+msgid "Discard Undo History"
+msgstr "Очистити історію дій"
+
+#: src/app/UI/mainwindow.py:888
+#: src/app/UI/mainwindow.py:1477
+msgid "No Fill"
+msgstr "Без заповнення"
+
+#: src/app/UI/mainwindow.py:889
+#: src/app/UI/mainwindow.py:1480
+msgid "No Line"
+msgstr "Без контуру"
+
+#: src/app/UI/mainwindow.py:892
+#: src/app/UI/context/image_panel.py:35
+msgid "Convert to CMYK"
+msgstr "Перетворити у CMYK"
+
+#: src/app/UI/mainwindow.py:893
+#: src/app/UI/context/image_panel.py:39
+msgid "Convert to RGB"
+msgstr "Перетворити у RGB"
+
+#: src/app/UI/mainwindow.py:894
+#: src/app/UI/context/image_panel.py:43
+msgid "Convert to Grayscale"
+msgstr "Перетворити у відтінки сірого"
+
+#: src/app/UI/mainwindow.py:895
+#: src/app/UI/context/image_panel.py:47
+msgid "Convert to B&W"
+msgstr "Перетворити у чорно-біле"
+
+#: src/app/UI/mainwindow.py:898
+msgid "Embed Image"
+msgstr "Вбудувати зображення"
+
+#: src/app/UI/mainwindow.py:903
+msgid "File"
+msgstr "Файл"
+
+#: src/app/UI/mainwindow.py:905
+msgid "View"
+msgstr "Вигляд"
+
+#: src/app/UI/mainwindow.py:906
+#: src/app/UI/pluginpanels/pbrowser.py:52
+msgid "Layout"
+msgstr "Макет"
+
+#: src/app/UI/mainwindow.py:907
+#: src/app/scripts/spread.py:45
+#: src/app/scripts/spread.py:67
+#: src/app/scripts/spread.py:90
+#: src/app/scripts/spread.py:115
+#: src/app/scripts/spread.py:138
+#: src/app/scripts/spread.py:161
+#: src/app/scripts/spread.py:184
+#: src/app/scripts/spread.py:210
+msgid "Arrange"
+msgstr "Упорядкувати"
+
+#: src/app/UI/mainwindow.py:908
+#: src/app/UI/pluginpanels/pbrowser.py:55
+msgid "Effects"
+msgstr "Ефекти"
+
+#: src/app/UI/mainwindow.py:909
+msgid "Bitmaps"
+msgstr "Зображення"
+
+#: src/app/UI/mainwindow.py:911
+msgid "Style"
+msgstr "Стиль"
+
+#: src/app/UI/mainwindow.py:914
+#: src/app/UI/cc/ccenterdialog.py:80
+msgid "Help"
+msgstr "Довідка"
+
+#: src/app/UI/mainwindow.py:917
+msgid "Special"
+msgstr "Спеціальне"
+
+#: src/app/UI/mainwindow.py:1006
+msgid "Zoom"
+msgstr "Масштаб"
+
+#: src/app/UI/mainwindow.py:1229
+#: src/app/UI/mainwindow.py:1237
+msgid "Load Palette"
+msgstr "Завантажити палітру"
+
+#: src/app/UI/mainwindow.py:1238
+#, python-format
+msgid ""
+"\n"
+"Cannot load palette %(filename)s!\n"
+msgstr ""
+"\n"
+"Неможливо завантажити палітру %(filename)s!\n"
+
+#: src/app/UI/mainwindow.py:1344
+msgid "modified"
+msgstr "змінено"
+
+#: src/app/UI/mainwindow.py:1345
+msgid "unmodified"
+msgstr "без змін"
+
+#: src/app/UI/palette.py:131
+msgid "Sketch Palette"
+msgstr "Палітри Sketch"
+
+#: src/app/UI/palette.py:132
+#: src/app/managers/dialogmanager.py:46
+#: src/app/managers/dialogmanager.py:69
+#: src/app/managers/dialogmanager.py:82
+#: src/app/managers/dialogmanager.py:99
+#: src/app/managers/dialogmanager.py:102
+#: src/app/managers/dialogmanager.py:105
+msgid "All Files"
+msgstr "Всі файли"
+
+#: src/app/UI/plugindlg.py:214
+#, python-format
+msgid "Set %s"
+msgstr "Встановити %s"
+
+#: src/app/UI/plugindlg.py:230
+msgid "Set Parameters"
+msgstr "Зміну параметрів"
+
+#: src/app/UI/sketchdlg.py:238
+#: src/app/UI/pluginpanels/properties/fill_plugin.py:79
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:189
+#: src/app/UI/pluginpanels/properties/outlineprop.py:189
+msgid "Auto Update"
+msgstr "Автооновлення"
+
+#: src/app/UI/sketchdlg.py:243
+msgid "Update From..."
+msgstr "Поновити від ..."
+
+#: src/app/UI/styledlg.py:35
+msgid "Styles"
+msgstr "Стилі"
+
+#: src/app/UI/styledlg.py:51
+msgid "Apply style"
+msgstr "Застосувати стиль"
+
+#: src/app/UI/styledlg.py:58
+msgid "Delete style"
+msgstr "Видалити стиль"
+
+#: src/app/UI/styledlg.py:64
+msgid "Create new style"
+msgstr "Створити новий стиль"
+
+#: src/app/UI/styledlg.py:136
+#: src/app/UI/styledlg.py:210
+msgid "Create Style"
+msgstr "Створити стиль"
+
+#: src/app/UI/styledlg.py:156
+msgid "Style name:"
+msgstr "Назва стилю"
+
+#: src/app/UI/styledlg.py:165
+msgid "Style properties"
+msgstr "Властивості стилю"
+
+#: src/app/UI/styledlg.py:205
+msgid "Create Style Info"
+msgstr "Створити стиль"
+
+#: src/app/UI/styledlg.py:206
+msgid "Please enter a style name."
+msgstr "Будь ласка, введіть назву стилю."
+
+#: src/app/UI/styledlg.py:211
+#, python-format
+msgid ""
+"The name `%(name)s' is already used.\n"
+"Please choose another one."
+msgstr ""
+"Назва`%(name)s' вже використовується. \n"
+"Будь ласка, виберіть іншу назву."
+
+#: src/app/UI/styledlg.py:234
+msgid "Set Default Properties"
+msgstr "Встановлення властивостей за замовчуванням"
+
+#: src/app/UI/styledlg.py:246
+msgid ""
+"Please select the object categories whose\n"
+" default properties you want to change"
+msgstr ""
+"Будь ласка, виберіть категорій об'єкта,\n"
+" у яких бажаєте змінити властивості за замовчуванням."
+
+#: src/app/UI/styledlg.py:254
+msgid "Graphics Objects"
+msgstr "Графічні об'єкти"
+
+#: src/app/UI/styledlg.py:260
+msgid "Text Objects"
+msgstr "Текстові об'єкти"
+
+#: src/app/UI/tkext.py:1089
+#: src/app/UI/dialogs/msgdialog.py:21
+msgid "Yes"
+msgstr "Так"
+
+#: src/app/UI/tkext.py:1090
+#: src/app/UI/dialogs/msgdialog.py:22
+msgid "No"
+msgstr "Ні"
+
+#: src/app/UI/tkext.py:1092
+#: src/app/UI/dialogs/msgdialog.py:24
+msgid "Don't Save"
+msgstr "Не зберігати"
+
+#: src/app/UI/ttk_ext.py:38
+msgid "Clear All"
+msgstr "Очистити все"
+
+#: src/app/events/undo.py:199
+#, python-format
+msgid "Undo %s"
+msgstr "Вернути: %s"
+
+#: src/app/events/undo.py:208
+#, python-format
+msgid "Redo %s"
+msgstr "Повторити: %s"
+
+#: src/app/events/warn.py:62
+#: src/app/events/warn.py:81
+#: src/app/UI/pluginpanels/shaping/base.py:23
+msgid "Warning"
+msgstr "Увага"
+
+#: src/app/events/warn.py:80
+msgid "Print Traceback"
+msgstr "Друкувати Traceback"
+
+#: src/app/events/warn.py:88
+msgid "Traceback"
+msgstr "Traceback"
+
+#: src/app/io/load.py:297
+#, python-format
+msgid "%(message)s (%(count)d times)"
+msgstr "%(message)s (%(count)d times)"
+
+#: src/app/io/load.py:360
+msgid "Parsing error:"
+msgstr "Помилка розбору:"
+
+#: src/app/io/load.py:365
+msgid "unrecognised file type"
+msgstr "Невідомий тип файлу"
+
+#: src/app/io/load.py:377
+#, python-format
+msgid ""
+"Cannot open %(filename)s:\n"
+"%(message)s"
+msgstr ""
+"Неможливо відкрити %(filename)s:\n"
+"%(message)s"
+
+#: src/app/managers/dialogmanager.py:45
+#: src/app/managers/dialogmanager.py:71
+#: src/app/managers/dialogmanager.py:73
+msgid "sK1 vector graphics files - *.sK1"
+msgstr "Файли векторної графіки редактора sK1 - *.sK1"
+
+#: src/app/managers/dialogmanager.py:48
+msgid "All supported files - *.sk1 *.sk *.ai *.eps *.cdr *.svg *.wmf etc. "
+msgstr "Всі формати що підтримуються - *.sk1 *.sk *.ai *.eps *.cdr *.svg *.wmf і т.д. "
+
+#: src/app/managers/dialogmanager.py:53
+msgid "sK1 vector graphics files - *.sk1"
+msgstr "Графічні файли редактора sK1 - *. sk1"
+
+#: src/app/managers/dialogmanager.py:54
+msgid "Sketch\\Skencil files - *.sk"
+msgstr "Файли Sketch\\Skencil - *.sk"
+
+#: src/app/managers/dialogmanager.py:55
+msgid "Adobe Illustrator files (up to ver. 9.0) - *.ai"
+msgstr "Файли Adobe Illustrator (аж до вер. 9.0) - *.ai"
+
+#: src/app/managers/dialogmanager.py:56
+#: src/app/managers/dialogmanager.py:89
+msgid "Encapsulated PostScript files - *.eps"
+msgstr "Файли Encapsulated PostScript - *.eps"
+
+#: src/app/managers/dialogmanager.py:57
+msgid "PostScript files - *.ps"
+msgstr "Файли PostScript - *.ps"
+
+#: src/app/managers/dialogmanager.py:58
+msgid "CorelDRAW Graphics files (7-X4 ver.) - *.cdr"
+msgstr "Графічні файли CorelDRAW (7-X4 вер.) - *.cdr"
+
+#: src/app/managers/dialogmanager.py:59
+msgid "CorelDRAW Templates files (7-X4 ver.) - *.cdt"
+msgstr "Файли шаблонів CorelDRAW (7-X4 вер.) - *.cdt"
+
+#: src/app/managers/dialogmanager.py:60
+msgid "CorelDRAW Presentation Exchange files - *.cmx"
+msgstr "Файли CorelDRAW Presentation Exchange - *.cmx"
+
+#: src/app/managers/dialogmanager.py:61
+msgid "CorelDRAW Compressed Exchange files (CDRX format) - *.ccx"
+msgstr "Файли CorelDRAW Compressed Exchange (Формат CDRX) - *.ccx"
+
+#: src/app/managers/dialogmanager.py:62
+#: src/app/managers/dialogmanager.py:78
+msgid "Computer Graphics Metafile files - *.cgm"
+msgstr "Файли Computer Graphics Metafile - *.cgm"
+
+#: src/app/managers/dialogmanager.py:63
+msgid "Acorn Draw files - *.aff"
+msgstr "Файли Acorn Draw - *.aff"
+
+#: src/app/managers/dialogmanager.py:64
+#: src/app/managers/dialogmanager.py:79
+msgid "Scalable Vector Graphics files - *.svg"
+msgstr "Файли Scalable Vector Graphics - *.svg"
+
+#: src/app/managers/dialogmanager.py:65
+#: src/app/managers/dialogmanager.py:80
+msgid "Windows Metafile files - *.wmf"
+msgstr "Метафайли Windows - *.wmf"
+
+#: src/app/managers/dialogmanager.py:66
+#: src/app/managers/dialogmanager.py:81
+msgid "HPGL cutting plotter files - *.plt"
+msgstr "Файли HPGL для ріжучих плотерів - *.plt"
+
+#: src/app/managers/dialogmanager.py:67
+msgid "AutoCAD DXF files - *.dxf"
+msgstr "Файли AutoCAD DXF- *.dxf"
+
+#: src/app/managers/dialogmanager.py:68
+msgid "XFig files - *.fig"
+msgstr "Файли XFig - *.fig"
+
+#: src/app/managers/dialogmanager.py:74
+msgid "Sketch and Skencil files - *.sk"
+msgstr "Файли Sketch та Skencil - *.sk"
+
+#: src/app/managers/dialogmanager.py:75
+msgid "Adobe Illustrator files (ver. 5.0) - *.ai"
+msgstr "Файли Adobe Illustrator (вер. 5.0) - *.ai"
+
+#: src/app/managers/dialogmanager.py:76
+#: src/app/managers/dialogmanager.py:104
+msgid "Portable Document Format (PDF 1.5) - *.pdf"
+msgstr "Portable Document Format (PDF 1.5) - *.pdf"
+
+#: src/app/managers/dialogmanager.py:77
+msgid "PostScript - *.ps"
+msgstr "PostScript - *.ps"
+
+#: src/app/managers/dialogmanager.py:84
+msgid "All supported files - *.png *.jpg *.tif *.gif *.psd *.bmp *.pcx etc."
+msgstr "Всі формати що підтримуються - *.png *.jpg *.tif *.gif *.psd *.bmp *.pcx і т.д."
+
+#: src/app/managers/dialogmanager.py:88
+msgid "Portable Network Graphics files - *.png"
+msgstr "Файли Portable Network Graphics - *.png"
+
+#: src/app/managers/dialogmanager.py:90
+msgid "JPEG files - *.jpg *jpeg"
+msgstr "Файли JPEG - *.jpg *jpeg"
+
+#: src/app/managers/dialogmanager.py:91
+msgid "TIFF files - *.tif *.tiff"
+msgstr "Файли TIFF - *.tif *.tiff"
+
+#: src/app/managers/dialogmanager.py:92
+msgid "CompuServ Graphics files - *.gif"
+msgstr "Файли CompuServ Graphics - *.gif"
+
+#: src/app/managers/dialogmanager.py:93
+msgid "Adobe Photoshop files (up to v.3.0) - *.psd"
+msgstr "Файли Adobe Photoshop (аж до вер.3.0) - *.psd"
+
+#: src/app/managers/dialogmanager.py:94
+msgid "Windows Bitmap files - *.bmp"
+msgstr "Файли Windows Bitmap - *.bmp"
+
+#: src/app/managers/dialogmanager.py:95
+msgid "Paintbrush files - *.pcx"
+msgstr "Файли Paintbrush - *.pcx"
+
+#: src/app/managers/dialogmanager.py:96
+msgid "Portable Bitmap files - *.pbm"
+msgstr "Файли Portable Bitmap - *.pbm"
+
+#: src/app/managers/dialogmanager.py:97
+msgid "Portable Graymap files - *.pgm"
+msgstr "Файли Portable Graymap - *.pgm"
+
+#: src/app/managers/dialogmanager.py:98
+msgid "Portable Pixmap files - *.ppm"
+msgstr "Файли Portable Pixmap - *.ppm"
+
+#: src/app/managers/dialogmanager.py:101
+msgid "sK1 color swatch palette"
+msgstr "Палітри кольорів sK1"
+
+#: src/app/managers/dialogmanager.py:228
+msgid "Browser not found"
+msgstr "Не знайдено браузер"
+
+#: src/app/managers/dialogmanager.py:231
+msgid "and all the browsers are absent in the system!\n"
+msgstr "та в системі немає браузерів!\n"
+
+#: src/app/managers/dialogmanager.py:232
+msgid "Please consider installing browser in your system."
+msgstr "Будь ласка, розгляньте можливість установки браузера в вашій системі."
+
+#: src/app/managers/dialogmanager.py:229
+msgid "sK1 has checked presence of following browsers:\n"
+msgstr "sK1 перевірив наявність наступних браузерів:\n"
+
+#: src/app/managers/dialogmanager.py:242
+msgid "Open file"
+msgstr "Відкрити файл"
+
+#: src/app/managers/dialogmanager.py:249
+msgid "Import drawing"
+msgstr "Імпорт малюнку"
+
+#: src/app/managers/dialogmanager.py:256
+msgid "Import bitmap"
+msgstr "Імпорт зображення"
+
+#: src/app/managers/dialogmanager.py:266
+#: src/app/managers/dialogmanager.py:275
+#: src/app/managers/dialogmanager.py:280
+msgid "Save file As..."
+msgstr "Зберегти файл як..."
+
+#: src/app/managers/dialogmanager.py:271
+msgid "Save file"
+msgstr " Зберегти файл "
+
+#: src/app/managers/dialogmanager.py:288
+msgid "Export drawing"
+msgstr "Експорт малюнку"
+
+#: src/app/managers/dialogmanager.py:295
+msgid "Export drawing as a bitmap"
+msgstr "Експорт малюнку як зображення"
+
+#: src/app/managers/docmanager.py:79
+#: src/app/managers/docmanager.py:84
+msgid "Open"
+msgstr "Відкрити"
+
+#: src/app/managers/docmanager.py:79
+msgid ""
+"\n"
+"An error occurred:\n"
+"\n"
+msgstr ""
+"\n"
+"Виникла помилка:\n"
+"\n"
+
+#: src/app/managers/docmanager.py:84
+msgid ""
+"\n"
+"Warnings from the import filter:\n"
+"\n"
+msgstr ""
+"\n"
+"Попередження від фільтра імпорту \n"
+"\n"
+
+#: src/app/managers/docmanager.py:88
+#: src/app/managers/docmanager.py:92
+msgid "Document parsing"
+msgstr "Документ обробляється"
+
+#: src/app/managers/docmanager.py:89
+#: src/app/managers/docmanager.py:156
+msgid "Start document processing"
+msgstr "Почалася обробка документу"
+
+#: src/app/managers/docmanager.py:93
+msgid "Document has been loaded"
+msgstr "Документ завантажено"
+
+#: src/app/managers/docmanager.py:155
+msgid "Document saving/exporting"
+msgstr "Документ збережено/експортовано"
+
+#: src/app/managers/docmanager.py:158
+msgid "Finish document processing"
+msgstr "Обробка документа закінчилась"
+
+#: src/app/managers/docmanager.py:173
+#: src/app/UI/cc/panels/general.py:161
+msgid "Printing"
+msgstr "Друкування"
+
+#: src/app/managers/docmanager.py:174
+msgid ""
+"The document doesn't have \n"
+" any printable layers!\n"
+msgstr ""
+"У документі не має шару \n"
+"позначеного для друку!\n"
+
+#: src/app/managers/docmanager.py:180
+msgid "Print into PDF file"
+msgstr "Друкувати у PDF"
+
+#: src/app/managers/docmanager.py:245
+#: src/app/managers/docmanager.py:251
+#: src/app/managers/docmanager.py:257
+#: src/app/managers/docmanager.py:266
+msgid "Import vector"
+msgstr "Імпорт вектору"
+
+#: src/app/managers/docmanager.py:245
+msgid "An error occurred:"
+msgstr "Сталася помилка:"
+
+#: src/app/managers/docmanager.py:251
+msgid ""
+"Warnings from the import filter:\n"
+"\n"
+msgstr ""
+"Попередження від фільтру імпорту:\n"
+"\n"
+
+#: src/app/managers/docmanager.py:257
+#, python-format
+msgid "%i pages were added to the document"
+msgstr "У документ додано сторінок: %i шт."
+
+#: src/app/managers/docmanager.py:266
+msgid "Importing result: it seems the document is empty!"
+msgstr "За результатами Імпорту: виявилося, що документ пустий!"
+
+#: src/app/managers/docmanager.py:270
+#: src/app/managers/docmanager.py:274
+msgid "File importing"
+msgstr "Імпорт файлу"
+
+#: src/app/managers/docmanager.py:271
+msgid "Start file parsing"
+msgstr "Початок розбору файлу"
+
+#: src/app/managers/docmanager.py:275
+msgid "File has been imported"
+msgstr "Файл імпортовано успішно"
+
+#: src/app/managers/docmanager.py:327
+#, python-format
+msgid ""
+"\n"
+"Cannot create backup file %(filename)s:\n"
+"%(message)s\n"
+"\n"
+"Choose `continue' to try saving anyway,\n"
+"or `cancel' to cancel saving."
+msgstr ""
+"\n"
+"Неможливо створити резервну копію файлу %(filename)s:\n"
+"%(message)s\n"
+"\n"
+"Виберіть `Продовжити', щоб спробувати в усякому разі зберегти,\n"
+"або `Скасувати', щоб скасувати збереження."
+
+#: src/app/managers/docmanager.py:333
+#: src/app/managers/docmanager.py:358
+msgid "Save To File"
+msgstr "Зберегти у файл"
+
+#: src/app/managers/docmanager.py:333
+msgid "Continue"
+msgstr "Продовжити"
+
+#: src/app/managers/docmanager.py:359
+#, python-format
+msgid ""
+"\n"
+"Cannot save %(filename)s:\n"
+"\n"
+"%(message)s"
+msgstr ""
+"\n"
+"Не можливо зберегти %(filename)s:\n"
+"\n"
+"%(message)s"
+
+#: src/app/managers/docmanager.py:385
+msgid "sK1 - Save Document..."
+msgstr "sK1 - Збереження документу..."
+
+#: src/app/managers/docmanager.py:387
+#, python-format
+msgid ""
+"\n"
+"File: <%s> has been changed ! \n"
+"\n"
+"Do you want to save it?\n"
+msgstr ""
+"\n"
+"Файл: <%s> був змінений! \n"
+"\n"
+"Ви бажаєте, зберегти його?\n"
+
+#: src/app/scripts/create_spiral.py:34
+msgid "Create Spiral"
+msgstr "Створити спіраль"
+
+#: src/app/scripts/create_spiral.py:39
+msgid "Rotations"
+msgstr "Обертів"
+
+#: src/app/scripts/create_spiral.py:46
+#: src/app/scripts/create_star.py:106
+msgid "Radius"
+msgstr "Радіус"
+
+#: src/app/scripts/create_spiral.py:91
+msgid "Spiral"
+msgstr "Спіраль"
+
+#: src/app/scripts/create_spiral.py:92
+#: src/app/scripts/create_star_outline.py:86
+msgid "Create Objects"
+msgstr "Створювати нові об'єкти"
+
+#: src/app/scripts/create_star.py:68
+#: src/app/scripts/create_star.py:161
+#: src/app/scripts/create_star_outline.py:30
+msgid "Create Star"
+msgstr "Створити зірку"
+
+#: src/app/scripts/create_star.py:92
+#: src/app/scripts/create_star_outline.py:35
+msgid "Corners"
+msgstr "Кути"
+
+#: src/app/scripts/create_star.py:99
+msgid "Steps"
+msgstr "Кроки"
+
+#: src/app/scripts/create_star_outline.py:42
+msgid "Outer Radius"
+msgstr "Зовнішній радіус"
+
+#: src/app/scripts/create_star_outline.py:49
+msgid "Inner Radius"
+msgstr "Внутрішній радіус"
+
+#: src/app/scripts/create_star_outline.py:85
+msgid "Star Outline"
+msgstr "Контур зірки"
+
+#: src/app/scripts/export_raster.py:51
+msgid "Choose Raster Parameters"
+msgstr "Параметри растру"
+
+#: src/app/scripts/export_raster.py:56
+msgid "ppi"
+msgstr "ppi"
+
+#: src/app/scripts/export_raster.py:63
+msgid "w. Transparency"
+msgstr "Прозорість"
+
+#: src/app/scripts/export_raster.py:70
+msgid "use BB information"
+msgstr "узяти BB iнфо"
+
+#: src/app/scripts/export_raster.py:198
+msgid "Portable Pixmap"
+msgstr "Portable Pixmap"
+
+#: src/app/scripts/export_raster.py:199
+msgid "Portable Graymap"
+msgstr "Portable Graymap"
+
+#: src/app/scripts/export_raster.py:200
+msgid "Jpeg"
+msgstr "Jpeg"
+
+#: src/app/scripts/export_raster.py:201
+msgid "Portable Network Graphics"
+msgstr "Portable Network Graphics"
+
+#: src/app/scripts/export_raster.py:224
+#: src/app/scripts/export_raster.py:237
+#: src/app/scripts/export_raster.py:243
+msgid "Export Raster"
+msgstr "Експорт у растр"
+
+#: src/app/scripts/export_raster.py:236
+#, python-format
+msgid "unknown extension %s"
+msgstr "невідоме розширення %s"
+
+#: src/app/scripts/export_raster.py:250
+msgid "Export Raster Alpha (100ppi)"
+msgstr "Export Raster Alpha (100ppi)"
+
+#: src/app/scripts/reload_image.py:76
+msgid "Reload Image"
+msgstr "Перевантажити файл зображення"
+
+#: src/app/scripts/simple_separation.py:50
+msgid ""
+"The drawing contains unsupported fill or line patterns. Only solid\n"
+"colors are supported.\n"
+msgstr ""
+"Малюнок містить непідтримувані заливки або шаблони ліній.\n"
+" Підтримуються тільки суцільні кольори.\n"
+
+#: src/app/scripts/simple_separation.py:55
+msgid "The drawing contains raster images, which are not supported for separation\n"
+msgstr "Малюнок містить растрові зображення, які не підтримуються для розділення\n"
+
+#: src/app/scripts/simple_separation.py:59
+msgid ""
+"The drawing contains embedded EPS files which are not supported for\n"
+"separation\n"
+msgstr ""
+"The drawing contains embedded EPS files which are not supported for\n"
+"separation\n"
+
+#: src/app/scripts/simple_separation.py:137
+#, python-format
+msgid ""
+"The drawing has %d unique colors.\n"
+"Please choose a basename for the separation files.\n"
+"There will be one file for each color with a name of\n"
+"the form basename-XXXXXX.ps where XXXXXX is the\n"
+"hexadecimal color value.\n"
+msgstr ""
+"The drawing has %d unique colors.\n"
+"Please choose a basename for the separation files.\n"
+"There will be one file for each color with a name of\n"
+"the form basename-XXXXXX.ps where XXXXXX is the\n"
+"hexadecimal color value.\n"
+
+#: src/app/scripts/simple_separation.py:164
+msgid "Basename:"
+msgstr "Базова назва:"
+
+#: src/app/scripts/simple_separation.py:214
+#: src/app/scripts/simple_separation.py:266
+msgid "Simple Separation"
+msgstr "Автоматичне відокремлення"
+
+#: src/app/scripts/spread.py:44
+msgid "Spread Horizontal (cascade left)"
+msgstr "Spread Horizontal (cascade left)"
+
+#: src/app/scripts/spread.py:66
+msgid "Spread Horizontal (cascade right)"
+msgstr "Spread Horizontal (cascade right)"
+
+#: src/app/scripts/spread.py:89
+msgid "Spread Horizontal (center)"
+msgstr "Spread Horizontal (center)"
+
+#: src/app/scripts/spread.py:114
+msgid "Spread Horizontal (bbox)"
+msgstr "Spread Horizontal (bbox)"
+
+#: src/app/scripts/spread.py:137
+msgid "Spread Vertical (cascade bottom)"
+msgstr "Spread Vertical (cascade bottom)"
+
+#: src/app/scripts/spread.py:160
+msgid "Spread Vertical (cascade top)"
+msgstr "Spread Vertical (cascade top)"
+
+#: src/app/scripts/spread.py:183
+msgid "Spread Vertical (center)"
+msgstr "Spread Vertical (center)"
+
+#: src/app/scripts/spread.py:209
+msgid "Spread Vertical (bbox)"
+msgstr "Spread Vertical (bbox)"
+
+#: src/app/UI/cc/ccenterdialog.py:31
+msgid "sK1 Preferences"
+msgstr "Параметри sK1"
+
+#: src/app/UI/cc/ccenterdialog.py:83
+msgid "Restore Defaults"
+msgstr "За змовчуванням"
+
+#: src/app/UI/cc/ccenterdialog.py:142
+msgid "Preferences"
+msgstr "Параметри"
+
+#: src/app/UI/cc/prefpanel.py:17
+msgid "Preference Panel"
+msgstr "Панель параметрів"
+
+#: src/app/UI/context/ellipse_panel.py:64
+msgid "Start:"
+msgstr "Початок:"
+
+#: src/app/UI/context/ellipse_panel.py:69
+msgid "Arc start point angle"
+msgstr "Кут початку дуги"
+
+#: src/app/UI/context/ellipse_panel.py:76
+msgid "End:"
+msgstr "Кінець:"
+
+#: src/app/UI/context/ellipse_panel.py:81
+msgid "Arc end point angle"
+msgstr "Кут кінця дуги"
+
+#: src/app/UI/context/ellipse_panel.py:84
+msgid "Reset angles"
+msgstr "Скинути оберт"
+
+#: src/app/UI/context/ellipse_panel.py:88
+msgid "Swap angles"
+msgstr "Поміняти місцями кути"
+
+#: src/app/UI/context/ellipse_panel.py:95
+msgid "to Arc"
+msgstr "Перетворити на дугу"
+
+#: src/app/UI/context/ellipse_panel.py:99
+msgid "to Chord"
+msgstr "Перетворити на хорду"
+
+#: src/app/UI/context/ellipse_panel.py:103
+msgid "to Pie"
+msgstr "Перетворити на сегмент"
+
+#: src/app/UI/context/font_panel.py:41
+msgid "Font name"
+msgstr "Назва шрифту"
+
+#: src/app/UI/context/font_panel.py:52
+msgid "Font style"
+msgstr "Стиль шрифту"
+
+#: src/app/UI/context/font_panel.py:63
+msgid "Font size"
+msgstr "Розмір шрифту"
+
+#: src/app/UI/context/font_panel.py:77
+msgid "Bold"
+msgstr "Жирним"
+
+#: src/app/UI/context/font_panel.py:82
+msgid "Italic"
+msgstr "Курсивом"
+
+#: src/app/UI/context/font_panel.py:155
+msgid "Set Font Properties"
+msgstr "Зміну властивостей шрифту"
+
+#: src/app/UI/context/group_panel.py:25
+msgid "Group"
+msgstr "Згрупувати"
+
+#: src/app/UI/context/group_panel.py:44
+msgid "Combine"
+msgstr "Об'єднання"
+
+#: src/app/UI/context/group_panel.py:48
+msgid "Split"
+msgstr "Розділити"
+
+#: src/app/UI/context/group_panel.py:58
+msgid "Convert to curve"
+msgstr "Перетворити на криву"
+
+#: src/app/UI/context/guides_panel.py:24
+msgid "Add page frame"
+msgstr "Створити прямокутник у розмір сторінки "
+
+#: src/app/UI/context/guides_panel.py:27
+msgid "Add guides for page center"
+msgstr "Додати напрямні по центру сторінки"
+
+#: src/app/UI/context/guides_panel.py:34
+msgid "Add guides across page border"
+msgstr "Додати напрямні по межі сторінки"
+
+#: src/app/UI/context/guides_panel.py:58
+msgid "Remove all guides"
+msgstr "Вилучити усі напрямні"
+
+#: src/app/UI/context/jump_panel.py:31
+msgid "Jump:"
+msgstr "Зсув:"
+
+#: src/app/UI/context/nodeedit_panel.py:34
+msgid "Insert node"
+msgstr "Вставити вузол"
+
+#: src/app/UI/context/nodeedit_panel.py:37
+msgid "Remove nodes"
+msgstr "Вилучити вузли"
+
+#: src/app/UI/context/nodeedit_panel.py:45
+msgid "Join selected nodes"
+msgstr "З'єднати позначені вузли"
+
+#: src/app/UI/context/nodeedit_panel.py:48
+msgid "Break path at selected nodes"
+msgstr "Розірвати контур у позначеному вузлі"
+
+#: src/app/UI/context/nodeedit_panel.py:56
+msgid "Make selected nodes corner"
+msgstr "Зробити позначені вузли гострими"
+
+#: src/app/UI/context/nodeedit_panel.py:59
+msgid "Make selected nodes smooth"
+msgstr "Зробити позначені вузли гладкими"
+
+#: src/app/UI/context/nodeedit_panel.py:62
+msgid "Make selected nodes symmetric"
+msgstr "Зробити позначені вузли симетричними"
+
+#: src/app/UI/context/nodeedit_panel.py:70
+msgid "Make selected segments lines"
+msgstr "Зробити позначені сегменти прямими"
+
+#: src/app/UI/context/nodeedit_panel.py:73
+msgid "Make selected segments curves"
+msgstr "Зробити позначені сегменти кривими"
+
+#: src/app/UI/context/nodeedit_panel.py:81
+msgid "Select all nodes in path"
+msgstr "Позначити усі вузли у контурі"
+
+#: src/app/UI/context/page_panel.py:28
+#: src/app/UI/pluginpanels/layout/page_plugin.py:40
+msgid "<Custom Size>"
+msgstr "<Власний розмір>"
+
+#: src/app/UI/context/page_panel.py:35
+msgid "Page:"
+msgstr "Сторінка:"
+
+#: src/app/UI/context/page_panel.py:40
+msgid "Page formats"
+msgstr "Формат сторінки"
+
+#: src/app/UI/context/page_panel.py:57
+msgid "H:"
+msgstr "Ш:"
+
+#: src/app/UI/context/page_panel.py:61
+msgid "Page width"
+msgstr "Ширина сторінки"
+
+#: src/app/UI/context/page_panel.py:69
+msgid "V:"
+msgstr "В:"
+
+#: src/app/UI/context/page_panel.py:73
+msgid "Page height"
+msgstr "Висота сторінки"
+
+#: src/app/UI/context/page_panel.py:81
+#: src/app/UI/pluginpanels/layout/page_plugin.py:113
+msgid "Portrait"
+msgstr "Книжкова"
+
+#: src/app/UI/context/page_panel.py:85
+#: src/app/UI/pluginpanels/layout/page_plugin.py:119
+msgid "Landscape"
+msgstr "Альбомна"
+
+#: src/app/UI/context/rectangle_panel.py:32
+msgid "Horizontal radius of rounded corners"
+msgstr "Горизонтальний радіус закруглення кутів"
+
+#: src/app/UI/context/rectangle_panel.py:44
+msgid "Vertical radius of rounded corners"
+msgstr "Вертикальний радіус закруглення кутів"
+
+#: src/app/UI/context/resize_panel.py:44
+msgid "Width of selection"
+msgstr "Ширина позначення"
+
+#: src/app/UI/context/resize_panel.py:53
+msgid "Height of selection"
+msgstr "Висота позначення"
+
+#: src/app/UI/context/rotation_panel.py:29
+msgid "Rotation angle"
+msgstr "Кут обертання"
+
+#: src/app/UI/context/rotation_panel.py:32
+msgid "Rotate -90°"
+msgstr "Обернути на 90° проти годинникової стрілки"
+
+#: src/app/UI/context/rotation_panel.py:35
+msgid "Rotate 180°"
+msgstr "Обернути на 180°"
+
+#: src/app/UI/context/rotation_panel.py:38
+msgid "Rotate 90°"
+msgstr "Обернути на 90° за годинниковою стрілкою"
+
+#: src/app/UI/context/text_prop_panel.py:33
+msgid "Distance between words"
+msgstr "Відстань між словами"
+
+#: src/app/UI/context/text_prop_panel.py:42
+msgid "Distance between lines"
+msgstr "Відстань між строками"
+
+#: src/app/UI/context/text_prop_panel.py:51
+msgid "Distance between characters"
+msgstr "Відстань між символами"
+
+#: src/app/UI/context/text_prop_panel.py:68
+msgid "Set Text properties"
+msgstr "Зміну  властивостей тексту"
+
+#: src/app/UI/context/textalign_panel.py:29
+msgid "Left alignment"
+msgstr "Вирівнювання ліворуч"
+
+#: src/app/UI/context/textalign_panel.py:33
+msgid "Center alignment"
+msgstr "Центрувати"
+
+#: src/app/UI/context/textalign_panel.py:37
+msgid "Right alignment"
+msgstr "Вирівнювання праворуч"
+
+#: src/app/UI/context/textalign_panel.py:57
+msgid "Set Text Alignment"
+msgstr "Вирівнювання тексту"
+
+#: src/app/UI/context/unit_panel.py:27
+msgid "Units:"
+msgstr "Одиниці:"
+
+#: src/app/UI/dialogs/aboutdlg.py:39
+msgid "About sK1"
+msgstr "Про програму sK1"
+
+#: src/app/UI/dialogs/aboutdlg.py:60
+#, python-format
+msgid "Uses libraries: Tcl/Tk %s; Python %s"
+msgstr "Бібліотеки що використовуються: Tcl/Tk %s; Python %s"
+
+#: src/app/UI/dialogs/aboutdlg.py:82
+msgid "About application"
+msgstr "Про програму"
+
+#: src/app/UI/dialogs/aboutdlg.py:91
+msgid "Illustration program for prepress"
+msgstr "Редактор векторної графіки для додрукарської підготовки"
+
+#: src/app/UI/dialogs/aboutdlg.py:111
+msgid "Authors"
+msgstr "Автори"
+
+#: src/app/UI/dialogs/aboutdlg.py:130
+msgid ""
+"\n"
+"To report bugs please use project bugtracker: https://bugs.launchpad.net/sk1/\n"
+"\n"
+msgstr ""
+"\n"
+"Щоб повідомити про помилку скористайтесь \n"
+"багтрекером проекту: https://bugs.launchpad.net/sk1/.\n"
+
+#: src/app/UI/dialogs/aboutdlg.py:131
+msgid ""
+"Igor Novikov\n"
+"   igor.e.novikov@gmail.com\n"
+"   Project Leader\n"
+"\n"
+msgstr ""
+"Ігор Новиков \n"
+"   igor.e.novikov@gmail.com\n"
+"   Лідер проекту\n"
+"\n"
+
+#: src/app/UI/dialogs/aboutdlg.py:132
+msgid ""
+"Maxim Barabash\n"
+"   maxim.s.barabash@gmail.com\n"
+"   Designer\n"
+"\n"
+msgstr ""
+"Максим Барабаш\n"
+"   maxim.s.barabash@gmail.com\n"
+"   Дизайнер\n"
+"\n"
+
+#: src/app/UI/dialogs/aboutdlg.py:133
+msgid ""
+"Acknowledgments:\n"
+"=======================================\n"
+msgstr ""
+"Подяки:\n"
+"=======================================\n"
+
+#: src/app/UI/dialogs/aboutdlg.py:134
+msgid ""
+"Valek Fillipov\n"
+"   CDR format reverse engineering\n"
+"\n"
+msgstr ""
+"Валек Філіппов\n"
+"   зворотній інжиніринг формату CDR\n"
+"\n"
+
+#: src/app/UI/dialogs/aboutdlg.py:135
+msgid ""
+"Alexandre Prokoudine\n"
+"   alexandre.prokoudine@gmail.com\n"
+"   Information support (http://linuxgraphics.ru)"
+msgstr ""
+"Олександр Прокудін\n"
+"   alexandre.prokoudine@gmail.com\n"
+"   Інформаційна підтримка (http://linuxgraphics.ru)"
+
+#: src/app/UI/dialogs/aboutdlg.py:142
+msgid "Localization"
+msgstr "Переклад"
+
+#: src/app/UI/dialogs/aboutdlg.py:167
+msgid "License"
+msgstr "Лiцензiя"
+
+#: src/app/UI/dialogs/deletepagedlg.py:25
+msgid "Delete page"
+msgstr "Видалити сторінку"
+
+#: src/app/UI/dialogs/deletepagedlg.py:41
+msgid "Delete page No.:"
+msgstr "Видалити сторінку з №:"
+
+#: src/app/UI/dialogs/deletepagedlg.py:67
+#: src/app/UI/dialogs/gotopagedlg.py:67
+#: src/app/UI/dialogs/insertpagedlg.py:93
+#: src/app/UI/dialogs/insertpagedlg.py:97
+msgid "Error"
+msgstr "Помилка"
+
+#: src/app/UI/dialogs/deletepagedlg.py:67
+#: src/app/UI/dialogs/gotopagedlg.py:67
+#: src/app/UI/dialogs/insertpagedlg.py:93
+msgid "Incorrect page number!"
+msgstr "Невірний номер сторінки!"
+
+#: src/app/UI/dialogs/gotopagedlg.py:41
+msgid "Go to page No.:"
+msgstr "Перейти до сторінки з №:"
+
+#: src/app/UI/dialogs/insertpagedlg.py:25
+msgid "Insert pages"
+msgstr "Додати сторінки"
+
+#: src/app/UI/dialogs/insertpagedlg.py:42
+msgid "Insert:"
+msgstr "Додати:"
+
+#: src/app/UI/dialogs/insertpagedlg.py:47
+msgid "page(s)"
+msgstr "сторінку(ки)"
+
+#: src/app/UI/dialogs/insertpagedlg.py:61
+msgid "Before"
+msgstr "Перед"
+
+#: src/app/UI/dialogs/insertpagedlg.py:63
+msgid "After"
+msgstr "Після"
+
+#: src/app/UI/dialogs/insertpagedlg.py:66
+msgid "page No.:"
+msgstr "сторінкою з №:"
+
+#: src/app/UI/dialogs/insertpagedlg.py:97
+msgid "Incorrect number of pages!"
+msgstr "Хибна кількість сторінок!"
+
+#: src/app/UI/pluginpanels/pbrowser.py:22
+msgid "Plugin Browser"
+msgstr "Браузер доповнень"
+
+#: src/app/UI/pluginpanels/pbrowser.py:50
+msgid "Plugins"
+msgstr "Доповнення"
+
+#: src/app/UI/pluginpanels/pbrowser.py:51
+msgid "Object properties"
+msgstr "Властивості об'єкта"
+
+#: src/app/UI/pluginpanels/pbrowser.py:53
+msgid "Transformation"
+msgstr "Трансформація"
+
+#: src/app/UI/pluginpanels/pbrowser.py:54
+msgid "Shaping"
+msgstr "Надання форми"
+
+#: src/app/UI/pluginpanels/pbrowser.py:56
+msgid "Extensions"
+msgstr "Розширення"
+
+#: src/app/UI/widgets/colorchooser.py:87
+msgid ""
+"Empty pattern selected,\n"
+"i.e. object will not be filled"
+msgstr ""
+"Обрано порожній шаблон.\n"
+"Об'єкт не буде заповнений."
+
+#: src/app/UI/widgets/colordigitizer.py:88
+msgid "Alpha channel: "
+msgstr "Альфа-канал: "
+
+#: src/app/UI/widgets/colordigitizer.py:193
+msgid "Opacity: "
+msgstr "Непрозорість: "
+
+#: src/app/UI/widgets/colordigitizer.py:275
+msgid "Color name:"
+msgstr "Назва кольору:"
+
+#: src/app/UI/widgets/colorspacesel.py:15
+msgid "Empty pattern"
+msgstr "Пустий шаблон"
+
+#: src/app/UI/widgets/colorspacesel.py:16
+#: src/app/UI/pluginpanels/extensions/csconverter_plugin.py:24
+msgid "RGB color"
+msgstr "Кольори RGB"
+
+#: src/app/UI/widgets/colorspacesel.py:17
+#: src/app/UI/pluginpanels/extensions/csconverter_plugin.py:25
+msgid "CMYK color"
+msgstr "Кольори CMYK"
+
+#: src/app/UI/widgets/colorspacesel.py:18
+msgid "Spot color"
+msgstr "Кольори плашкові"
+
+#: src/app/UI/widgets/colorspacesel.py:19
+msgid "Registration Black"
+msgstr "Складний чорний"
+
+#: src/app/UI/widgets/colorspacesel.py:37
+#: src/app/UI/pluginpanels/extensions/csconverter_plugin.py:47
+msgid "Colorspace:"
+msgstr "Колірний простір:"
+
+#: src/app/UI/widgets/doctabs.py:206
+msgid "New Document"
+msgstr "Новий документ"
+
+#: src/app/UI/widgets/doctabs.py:208
+msgid "Refresh Document"
+msgstr "Оновити документ"
+
+#: src/app/UI/widgets/doctabs.py:210
+msgid "Save Document"
+msgstr "Зберегти документ"
+
+#: src/app/UI/widgets/doctabs.py:212
+msgid "Close Other Documents"
+msgstr "Закрити інші документи"
+
+#: src/app/UI/widgets/doctabs.py:215
+msgid "Close Document"
+msgstr "Закрити документ"
+
+#: src/app/UI/widgets/pager.py:32
+msgid "Page 2 of 2"
+msgstr "Сторінка 2 з 2"
+
+#: src/app/UI/widgets/pager.py:57
+#, python-format
+msgid "Page %u of %u"
+msgstr "Сторінка %u з %u"
+
+#: src/app/UI/cc/panels/general.py:21
+msgid "General Options"
+msgstr "Загальні налаштування"
+
+#: src/app/UI/cc/panels/general.py:23
+#: src/app/UI/cc/panels/general.py:51
+#: src/app/UI/cc/panels/general.py:79
+#: src/app/UI/cc/panels/general.py:107
+#: src/app/UI/cc/panels/general.py:135
+#: src/app/UI/cc/panels/general.py:164
+msgid "root"
+msgstr "root"
+
+#: src/app/UI/cc/panels/general.py:48
+msgid "Grid and Guides"
+msgstr "Сітка й напрямні"
+
+#: src/app/UI/cc/panels/general.py:76
+msgid "Application fonts"
+msgstr "Шрифти програми"
+
+#: src/app/UI/cc/panels/general.py:104
+msgid "Color Management"
+msgstr "Керування кольором"
+
+#: src/app/UI/cc/panels/general.py:132
+msgid "Cairo Renderer"
+msgstr "Cairo движок"
+
+#: src/app/UI/cc/panels/general.py:170
+#, python-format
+msgid "sK1 generates PDF file as a printing output. So as a printing target you can use any application which accepts PDF file on input: evince, kprinter, acroread etc. Printing command should contain %f symbols replaced by temporal PDF file name during printing."
+msgstr "sK1 генерує PDF файл як результат друку. Тому для друку ви можете використовувати будь-яку програму, яка приймає PDF файл на вході: evince, kprinter, acroread і т.д. Команда друку повинна містити %f символи, які будуть замінені ім'ям тимчасового файлу PDF під час друку."
+
+#: src/app/UI/cc/panels/general.py:183
+msgid "Printing command:"
+msgstr "Команда друку:"
+
+#: src/app/UI/cc/panels/general.py:191
+msgid "Output PDF level:"
+msgstr "Версія PDF:"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:23
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:27
+msgid "Selection"
+msgstr "Позначення"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:24
+msgid "Lowermost"
+msgstr "Найнижчого"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:25
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:28
+#: src/app/UI/pluginpanels/layout/page_plugin.py:33
+msgid "Page"
+msgstr "Сторінки"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:47
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:50
+msgid "Relative to"
+msgstr "Відносно до"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:57
+msgid "Alignment type"
+msgstr "Тип вирівнювання'"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:71
+msgid "Align left sides"
+msgstr "Вирівняти праві сторони"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:72
+msgid "Center on vertical axis"
+msgstr "Центрувати по горизонтальній осі"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:73
+msgid "Align right sides"
+msgstr "Вирівняти праві сторони"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:75
+msgid "Align tops"
+msgstr "Вирівняти верхні сторони"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:76
+msgid "Center on horizontal axis"
+msgstr "Центрувати по горизонтальній осі"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:77
+msgid "Align bottoms"
+msgstr "Вирівняти нижні сторони"
+
+#: src/app/UI/pluginpanels/effects/align_plugin.py:100
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:106
+msgid "Auto Apply"
+msgstr "Застосувати автоматично"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:25
+msgid "Distribute Objects"
+msgstr "Розподілити об'єкти"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:29
+msgid "Edge + Jump"
+msgstr "Край + зсув"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:38
+msgid "Distribution"
+msgstr "Розподілення"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:61
+msgid "Distribute type"
+msgstr "Тип розподілення"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:76
+msgid "Distribute left sides equidistantly"
+msgstr "Рівномірно розподілити краї що з ліва"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:77
+msgid "Distribute centers equidistantly horizontally"
+msgstr ""
+"Розподілити центри об'єктів \n"
+"на однаковій відстані по горизонталі"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:78
+msgid "Make horizontal gaps between objects equal"
+msgstr ""
+"Вирівняти інтервали між \n"
+"об'єктами по горизонталі"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:79
+msgid "Distribute right sides equidistantly"
+msgstr "Рівномірно розподілити краї що з права"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:81
+msgid "Distribute tops sides equidistantly"
+msgstr "Рівномірно розподілити краї що з верху"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:82
+msgid "Distribute centers equidistantly vertically"
+msgstr ""
+"Розподілити центри об'єктів \n"
+"на однаковій відстані по вертикалі"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:83
+msgid "Make vertical gaps between objects equal"
+msgstr ""
+"Вирівняти інтервали між \n"
+"об'єктами по вертикалі"
+
+#: src/app/UI/pluginpanels/effects/distribute_plugin.py:84
+msgid "Distribute bottoms sides equidistantly"
+msgstr "Рівномірно розподілити краї що з низу"
+
+#: src/app/UI/pluginpanels/extensions/csconverter_plugin.py:30
+msgid "Color Space Converter"
+msgstr "Змінити кольоровий простір"
+
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:25
+msgid "Text Find & Replace"
+msgstr "Знайти та змінити текст"
+
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:49
+msgid "Find:"
+msgstr "Знайти:"
+
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:61
+msgid "Replace to:"
+msgstr "Замінити на:"
+
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:67
+msgid "Parameters"
+msgstr "Параметри"
+
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:78
+msgid "Case sensitive"
+msgstr "Чутливий до регістру"
+
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:83
+msgid "Whole word"
+msgstr "Слова цілком"
+
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:88
+msgid "RegExp search"
+msgstr "Використовувати RegExp"
+
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:104
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:112
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:117
+#: src/app/UI/pluginpanels/extensions/find_replace_plugin.py:126
+msgid "Text Replace"
+msgstr "Замінити текст"
+
+#: src/app/UI/pluginpanels/layout/grid_plugin.py:39
+msgid "Grid origin"
+msgstr "Початок сітки"
+
+#: src/app/UI/pluginpanels/layout/grid_plugin.py:60
+msgid "Grid size"
+msgstr "Розмір сітки"
+
+#: src/app/UI/pluginpanels/layout/guidelines_plugin.py:87
+msgid "Add Horizontal Guide"
+msgstr "Додати горизонтальну"
+
+#: src/app/UI/pluginpanels/layout/guidelines_plugin.py:93
+msgid "Add Vertical Guide"
+msgstr "Додати вертикальну"
+
+#: src/app/UI/pluginpanels/layout/guidelines_plugin.py:99
+msgid "Delete Guide"
+msgstr "Вилучити напрямну"
+
+#: src/app/UI/pluginpanels/layout/guidelines_plugin.py:129
+#, python-format
+msgid "% 6.*f %s    horizontal"
+msgstr "% 6.*f %s    горизонтальна"
+
+#: src/app/UI/pluginpanels/layout/guidelines_plugin.py:131
+#, python-format
+msgid "% 6.*f %s    vertical"
+msgstr "% 6.*f %s    вертикальна"
+
+#: src/app/UI/pluginpanels/properties/fill_plugin.py:33
+msgid "Solid Fill"
+msgstr "Суцільне заповнення"
+
+#: src/app/UI/pluginpanels/properties/fill_plugin.py:70
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:180
+#: src/app/UI/pluginpanels/properties/outlineprop.py:180
+msgid "Copy From..."
+msgstr "Копіювати від ..."
+
+#: src/app/UI/pluginpanels/properties/fill_plugin.py:74
+msgid "Restore color"
+msgstr "Відновити колір"
+
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:40
+msgid "Gradient Fill"
+msgstr "Лінійний градієнт"
+
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:66
+#: src/app/UI/pluginpanels/properties/outlineprop.py:66
+msgid "Color:"
+msgstr "Колір:"
+
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:95
+#: src/app/UI/pluginpanels/properties/outlineprop.py:95
+msgid "Line width:"
+msgstr "Товщина:"
+
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:108
+#: src/app/UI/pluginpanels/properties/outlineprop.py:108
+msgid "Style:"
+msgstr "Пунктир:"
+
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:117
+#: src/app/UI/pluginpanels/properties/outlineprop.py:117
+msgid "Corners:"
+msgstr "Кути:"
+
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:146
+#: src/app/UI/pluginpanels/properties/outlineprop.py:146
+msgid "Line caps:"
+msgstr "Завершувачі:"
+
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:184
+#: src/app/UI/pluginpanels/properties/outlineprop.py:184
+msgid "Restore properties"
+msgstr "Відновити властивості"
+
+#: src/app/UI/pluginpanels/properties/gradient_fill.py:245
+#: src/app/UI/pluginpanels/properties/outlineprop.py:245
+msgid "Set Outline Properties"
+msgstr "Задати властивості контуру"
+
+#: src/app/UI/pluginpanels/properties/outlinecolor.py:18
+msgid "Outline Color"
+msgstr "Колір контуру"
+
+#: src/app/UI/pluginpanels/properties/outlinecolor.py:31
+msgid "Set Outline Color"
+msgstr "Задати колір контур "
+
+#: src/app/UI/pluginpanels/properties/outlineprop.py:40
+msgid "Outline Properties"
+msgstr "Властивості контуру"
+
+#: src/app/UI/pluginpanels/shaping/base.py:27
+msgid "Two or more objects must be selected"
+msgstr "Два або більше об'єкта повинні бути позначені"
+
+#: src/app/UI/pluginpanels/shaping/base.py:36
+msgid "Paths in polygon objects must be closed"
+msgstr "Контур багатокутника повинний бути замкнений"
+
+#: src/app/UI/pluginpanels/shaping/base.py:40
+msgid "Only rectangles, ellipses and polygons must be selected"
+msgstr "Тільки прямокутники, еліпси і багатокутники необхідно вибирати"
+
+#: src/app/UI/pluginpanels/shaping/divide.py:25
+msgid "Divide"
+msgstr "Ділення"
+
+#: src/app/UI/pluginpanels/shaping/divide.py:51
+#: src/app/UI/pluginpanels/shaping/intersect.py:51
+#: src/app/UI/pluginpanels/shaping/trim.py:51
+#: src/app/UI/pluginpanels/shaping/union.py:51
+msgid "Leave originals"
+msgstr "Залишити оригінали"
+
+#: src/app/UI/pluginpanels/shaping/intersect.py:25
+msgid "Intersection"
+msgstr "Перетинання"
+
+#: src/app/UI/pluginpanels/shaping/outline.py:27
+msgid "Outline to Curve"
+msgstr "Контур у контур"
+
+#: src/app/UI/pluginpanels/shaping/trim.py:25
+msgid "Trim"
+msgstr "Підрізування"
+
+#: src/app/UI/pluginpanels/shaping/union.py:25
+msgid "Union"
+msgstr "Об'єднання"
+
+#: src/app/UI/pluginpanels/transform/move_plugin.py:98
+msgid "Absolute Coordinates"
+msgstr "Абсолютні координати"
+
+#: src/app/UI/pluginpanels/transform/move_plugin.py:105
+#: src/app/UI/pluginpanels/transform/resize_plugin.py:114
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:133
+#: src/app/UI/pluginpanels/transform/scale_plugin.py:116
+#: src/app/UI/pluginpanels/transform/skew_plugin.py:87
+msgid "Basepoint:"
+msgstr "Точка відліку"
+
+#: src/app/UI/pluginpanels/transform/move_plugin.py:127
+#: src/app/UI/pluginpanels/transform/resize_plugin.py:136
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:157
+#: src/app/UI/pluginpanels/transform/scale_plugin.py:138
+#: src/app/UI/pluginpanels/transform/skew_plugin.py:110
+msgid "Apply to Copy"
+msgstr "Застосувати до копії"
+
+#: src/app/UI/pluginpanels/transform/resize_plugin.py:28
+#: src/app/UI/pluginpanels/transform/resize_plugin.py:184
+msgid "Resize"
+msgstr "Зміна розміру"
+
+#: src/app/UI/pluginpanels/transform/resize_plugin.py:109
+#: src/app/UI/pluginpanels/transform/scale_plugin.py:111
+msgid "Proportional"
+msgstr "Пропорційно"
+
+#: src/app/UI/pluginpanels/transform/resize_plugin.py:204
+msgid "Resize&Copy"
+msgstr "Зміна розміру копії"
+
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:36
+msgid "Rotate"
+msgstr "Обертання"
+
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:83
+msgid "Angle:"
+msgstr "Кут:"
+
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:89
+#: src/app/UI/pluginpanels/transform/skew_plugin.py:68
+#: src/app/UI/pluginpanels/transform/skew_plugin.py:82
+msgid "deg"
+msgstr "градус"
+
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:92
+msgid "Center:"
+msgstr "Центр:"
+
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:126
+msgid "Absolute Center"
+msgstr "Абсолютний центр"
+
+#: src/app/UI/pluginpanels/transform/rotate_plugin.py:222
+msgid "Rotation&Copy"
+msgstr "Обертання копії"
+
+#: src/app/UI/pluginpanels/transform/scale_plugin.py:27
+msgid "Scale and Mirror"
+msgstr "Масштабування"
+
+#: src/app/UI/pluginpanels/transform/scale_plugin.py:198
+msgid "Scale&Copy"
+msgstr "Масштабування копії"
+
+#: src/app/UI/pluginpanels/transform/skew_plugin.py:31
+#: src/app/UI/pluginpanels/transform/skew_plugin.py:152
+msgid "Skew"
+msgstr "Нахилення"
+
+#: src/app/UI/pluginpanels/transform/skew_plugin.py:183
+msgid "Skew&Copy"
+msgstr "Нахилення копії"
+
+#~ msgid ""
+#~ "\n"
+#~ "The project is not localized yet.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Проект ще цілком не локалізовано.\n"
+#~ "\n"
+#~ msgid "We plan to provide localization resources for next version\n"
+#~ msgstr "Ми плануємо локалізацію ресурсів у наступній версії\n"
+#~ msgid ""
+#~ "So if you wish joining to sK1 team as a localizator, just contact us!"
+#~ msgstr ""
+#~ "Якщо ви хочете приєднання до команди sK1,\n"
+#~ "просто зв'яжіться з нами!"
+#~ msgid "Guidelines"
+#~ msgstr "Напрямні"
+#~ msgid "Saving page %u of %u, layer %u of %u"
+#~ msgstr "Збереження сторінки %u з %u, шару %u з %u"
+#~ msgid "to load image - sK1"
+#~ msgstr "щоб завантажити зображення - sK1"
+
