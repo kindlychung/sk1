@@ -1,3 +1,4 @@
+
 sK1 is an open source vector graphics editor similar to CorelDRAW, 
 Adobe Illustrator, or Freehand. PrintDesign is oriented for prepress industry, 
 so it works with CMYK colorspace and produces CMYK-based PDF and PS output. 
@@ -7,6 +8,8 @@ Copyright (C) 2003-2015 by Igor E. Novikov
 
 
 
+(I tried to make this work on osx, but didn't succeed after all.)
+
 How to install: 
 
 * You need to install tcl-tk and export some environment variable on OSX:
@@ -14,7 +17,7 @@ How to install:
 brew install tcl-tk pygtk 
 brew link tcl-tk --force --overwrite 
 export NO_GETTEXT=1
-export LDFLAGS="-L/usr/X11/lib -L/usr/local/lib/ -L/opt/X11/lib -L/usr/local/Cellar/gettext/0.19.6/lib -lintl"
+export LDFLAGS="-L/usr/X11/lib -L/usr/local/lib/ -L/opt/X11/lib -L/usr/local/Cellar/gettext/0.19.6/lib -lintl -L/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config -lpython2.7 -ldl -framework CoreFoundation"
 export CFLAGS="-I/usr/X11/include -I/usr/X11/include/freetype2 -I/usr/X11/include/libpng15 -I/usr/local/include -I/usr/local/Cellar/gettext/0.19.6/include/ -I/opt/X11/include/cairo/ -I/usr/local/include/pycairo/"
 
 --------------------------------------------------------------------------
